@@ -1,4 +1,4 @@
-# NPTEL Quiz Arena
+# Reinforcement Learning Quiz
 
 A complete local-first React + TypeScript quiz application for the 59-page NPTEL Reinforcement Learning assignment PDF. All 12 weeks and 113 source questions are included. Questions and options are real text; mathematical expressions use bundled KaTeX. Only original diagrams and optional source-comparison evidence use images.
 
