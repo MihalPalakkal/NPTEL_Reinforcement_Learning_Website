@@ -1,0 +1,206 @@
+{
+  "source": "Assignments.pdf",
+  "pagesProcessed": 59,
+  "questionCount": 113,
+  "pdfKeysVerified": 112,
+  "independentlySolved": 1,
+  "sourceRestorations": 1,
+  "unresolvedAnswerKeys": 0,
+  "unrecoverableOriginalDetails": [
+    "week3-q4: original last distractor is clipped. D is reconstructed and labeled; B is independently solved."
+  ],
+  "localAssetsChecked": 649,
+  "weeks": [
+    {
+      "week": 1,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 10,
+      "independentlySolved": 0,
+      "withDiagrams": 0,
+      "sourcePages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 2,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 10,
+      "independentlySolved": 0,
+      "withDiagrams": 0,
+      "sourcePages": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 3,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 9,
+      "independentlySolved": 1,
+      "withDiagrams": 0,
+      "sourcePages": [
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 4,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 10,
+      "independentlySolved": 0,
+      "withDiagrams": 0,
+      "sourcePages": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 5,
+      "identified": 8,
+      "extracted": 8,
+      "pdfKeys": 8,
+      "independentlySolved": 0,
+      "withDiagrams": 0,
+      "sourcePages": [
+        21,
+        22,
+        23,
+        24
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 6,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 10,
+      "independentlySolved": 0,
+      "withDiagrams": 1,
+      "sourcePages": [
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 7,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 10,
+      "independentlySolved": 0,
+      "withDiagrams": 0,
+      "sourcePages": [
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 8,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 10,
+      "independentlySolved": 0,
+      "withDiagrams": 0,
+      "sourcePages": [
+        36,
+        37,
+        38,
+        39,
+        40
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 9,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 10,
+      "independentlySolved": 0,
+      "withDiagrams": 0,
+      "sourcePages": [
+        41,
+        42,
+        43,
+        44,
+        45
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 10,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 10,
+      "independentlySolved": 0,
+      "withDiagrams": 0,
+      "sourcePages": [
+        46,
+        47,
+        48,
+        49,
+        50
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 11,
+      "identified": 10,
+      "extracted": 10,
+      "pdfKeys": 10,
+      "independentlySolved": 0,
+      "withDiagrams": 4,
+      "sourcePages": [
+        51,
+        53,
+        54,
+        55,
+        56
+      ],
+      "unresolvedAnswers": 0
+    },
+    {
+      "week": 12,
+      "identified": 5,
+      "extracted": 5,
+      "pdfKeys": 5,
+      "independentlySolved": 0,
+      "withDiagrams": 1,
+      "sourcePages": [
+        57,
+        58,
+        59
+      ],
+      "unresolvedAnswers": 0
+    }
+  ],
+  "validation": "passed"
+}

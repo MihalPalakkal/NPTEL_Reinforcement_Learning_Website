@@ -1,0 +1,5288 @@
+[
+  {
+    "id": "week1-q1",
+    "week": 1,
+    "questionNumber": 1,
+    "questionText": "Which of the following is not a useful way to approach a standard multi-armed bandit problem with n arms? Assume bandits are stationary.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "“How can I ensure the best action is the one which is mostly selected as time tends to infinity?”",
+        "sourceImage": "/assets/week1-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "“How can I ensure the total regret as time tends to infinity is minimal?”",
+        "sourceImage": "/assets/week1-q1-B.png"
+      },
+      {
+        "id": "C",
+        "text": "“How can I ensure an arm which has an expected reward within a certain threshold of the optimal arm is chosen with a probability above a certain threshold?”",
+        "sourceImage": "/assets/week1-q1-C.png"
+      },
+      {
+        "id": "D",
+        "text": "“How can I ensure that when given any 2 arms, I can select the arm with a higher expected return with a probability above a certain threshold?”",
+        "sourceImage": "/assets/week1-q1-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      1
+    ],
+    "sourceImage": "/assets/week1-q1-statement.png",
+    "answerEvidence": "/assets/week1-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week1-q2",
+    "week": 1,
+    "questionNumber": 2,
+    "questionText": "What is the decay rate of the weightage given to past rewards in the computation of the Q function in the stationary and non-stationary updates in the multi-armed bandit problem?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "hyperbolic, linear",
+        "sourceImage": "/assets/week1-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "linear, hyperbolic",
+        "sourceImage": "/assets/week1-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "hyperbolic, exponential",
+        "sourceImage": "/assets/week1-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "exponential, linear",
+        "sourceImage": "/assets/week1-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      1
+    ],
+    "sourceImage": "/assets/week1-q2-statement.png",
+    "answerEvidence": "/assets/week1-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week1-q3",
+    "week": 1,
+    "questionNumber": 3,
+    "questionText": "In the update rule $Q_{t+1}(a) \\leftarrow Q_t(a)+\\alpha(R_t-Q_t(a))$, select the value of $\\alpha$ that we would prefer to estimate Q values in a non-stationary bandit problem.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\alpha=\\frac{1}{n_a+1}$",
+        "sourceImage": "/assets/week1-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\alpha=0.1$",
+        "sourceImage": "/assets/week1-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\alpha=n_a+1$",
+        "sourceImage": "/assets/week1-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$\\alpha=\\frac{1}{(n_a+1)^2}$",
+        "sourceImage": "/assets/week1-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      2
+    ],
+    "sourceImage": "/assets/week1-q3-statement.png",
+    "answerEvidence": "/assets/week1-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week1-q4",
+    "week": 1,
+    "questionNumber": 4,
+    "questionText": "Assertion: Taking exploratory actions is important for RL agents\nReason: If the rewards obtained for actions are stochastic, an action which gave a high reward once, might give lower reward next time.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assertion and Reason are both true and Reason is a correct explanation of Assertion",
+        "sourceImage": "/assets/week1-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Assertion and Reason are both true and Reason is not a correct explanation of Assertion",
+        "sourceImage": "/assets/week1-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true and Reason is false",
+        "sourceImage": "/assets/week1-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week1-q4-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      2
+    ],
+    "sourceImage": "/assets/week1-q4-statement.png",
+    "answerEvidence": "/assets/week1-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week1-q5",
+    "week": 1,
+    "questionNumber": 5,
+    "questionText": "We are trying different algorithms to find the optimal arm for a multi arm bandit. We plot expected payoff vs time graph for each algorithm for which the expected payoff satisfy some function with respect to time (staring from 0). Which among the following functions will have the least regret. (We know that the optimal expected pay off is 1) (Hint: Plot the functions)",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\tanh(t)$",
+        "sourceImage": "/assets/week1-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$1-2^{-t}$",
+        "sourceImage": "/assets/week1-q5-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$x/20$ if $x<20$ and $1$ after that",
+        "sourceImage": "/assets/week1-q5-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Same regret for all the above functions",
+        "sourceImage": "/assets/week1-q5-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      3
+    ],
+    "sourceImage": "/assets/week1-q5-statement.png",
+    "answerEvidence": "/assets/week1-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week1-q6",
+    "week": 1,
+    "questionNumber": 6,
+    "questionText": "Consider the following statements for $\\epsilon$-greedy approach in a non-stationary environment:\ni. Keeping a small constant $\\epsilon$ is a good approach if the environment is non-stationary.\nii. Large values of $\\epsilon$ will lead to unnecessary exploration in the long run.\niii. For a stationary environment, decaying $\\epsilon$ value to zero is a good approach, as after reaching optimality, we would like to reduce exploration.\nWhich of the above statements is/are correct?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "ii, iii",
+        "sourceImage": "/assets/week1-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "only iii",
+        "sourceImage": "/assets/week1-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "only ii",
+        "sourceImage": "/assets/week1-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "i, ii",
+        "sourceImage": "/assets/week1-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      3
+    ],
+    "sourceImage": "/assets/week1-q6-statement.png",
+    "answerEvidence": "/assets/week1-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week1-q7",
+    "week": 1,
+    "questionNumber": 7,
+    "questionText": "Following are two ways for defining the probability of selecting an action/arm. Select the option regarding better choice among the following.\n(i) $P_t(a_t=a)=\\frac{Q_t(a)}{\\sum_a Q_t(a)}$\n(ii) $P_t(a_t=a)=\\frac{e^{Q_t(a)}}{\\sum_{b=1}^n e^{Q_t(b)}}$",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both are good as both formulas can bound probability in range 0 to 1.",
+        "sourceImage": "/assets/week1-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "(i) is better because it is differentiable and requires less complex computation.",
+        "sourceImage": "/assets/week1-q7-B.png"
+      },
+      {
+        "id": "C",
+        "text": "None of the above.",
+        "sourceImage": "/assets/week1-q7-C.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      4
+    ],
+    "sourceImage": "/assets/week1-q7-statement.png",
+    "answerEvidence": "/assets/week1-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week1-q8",
+    "week": 1,
+    "questionNumber": 8,
+    "questionText": "Which of the following best refers to PAC-optimality solution to bandit problems?\n$\\epsilon$ – is the difference between the reward of the chosen arm and true optimal reward\n$\\delta$ – is the probability that chosen arm is not optimal N – is the number of steps to reach PAC-optimality",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Given $\\delta$ and $\\epsilon$, minimize the number of steps to reach PAC-optimality (i.e. N)",
+        "sourceImage": "/assets/week1-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Given $\\delta$ and N, minimize $\\epsilon$.",
+        "sourceImage": "/assets/week1-q8-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Given $\\epsilon$ and N, maximize the probability of choosing optimal arm (i.e. minimize $\\delta$)",
+        "sourceImage": "/assets/week1-q8-C.png"
+      },
+      {
+        "id": "D",
+        "text": "none of the above is true about PAC-optimality",
+        "sourceImage": "/assets/week1-q8-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      4
+    ],
+    "sourceImage": "/assets/week1-q8-statement.png",
+    "answerEvidence": "/assets/week1-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week1-q9",
+    "week": 1,
+    "questionNumber": 9,
+    "questionText": "Suppose we have a 10-armed bandit problem where the rewards for each of the 10 arms is deterministic and in the range (0, 10). Which among the following methods will allow us to accumulate maximum reward in the long term?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\epsilon$-greedy with $\\epsilon=0.1$.",
+        "sourceImage": "/assets/week1-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\epsilon$-greedy with $\\epsilon=0.01$.",
+        "sourceImage": "/assets/week1-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "greedy with initial reward estimates set to 0.",
+        "sourceImage": "/assets/week1-q9-C.png"
+      },
+      {
+        "id": "D",
+        "text": "greedy with initial reward estimates set to 10.",
+        "sourceImage": "/assets/week1-q9-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      5
+    ],
+    "sourceImage": "/assets/week1-q9-statement.png",
+    "answerEvidence": "/assets/week1-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week1-q10",
+    "week": 1,
+    "questionNumber": 10,
+    "questionText": "Which of the following is/are correct and valid reasons to consider sampling actions from a softmax distribution instead of using an e-greedy approach?\ni. Softmax exploration makes the probability of picking an action proportional to the actionvalue estimates. By doing so, it avoids wasting time exploring obviously ‘bad’ actions.\nii. We do not need to worry about decaying exploration slowly like we do in the c-greedy case. Softmax exploration gives us asymptotic correctness even for a sharp decrease in temperature.\niii. It helps us differentiate between actions with action-value estimates (Q values) that are very close to the action with maximum Q value.\nWhich of the above statements is/are correct?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "i, ii, iii",
+        "sourceImage": "/assets/week1-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "only iii",
+        "sourceImage": "/assets/week1-q10-B.png"
+      },
+      {
+        "id": "C",
+        "text": "only i",
+        "sourceImage": "/assets/week1-q10-C.png"
+      },
+      {
+        "id": "D",
+        "text": "i, ii",
+        "sourceImage": "/assets/week1-q10-D.png"
+      },
+      {
+        "id": "E",
+        "text": "i, iii",
+        "sourceImage": "/assets/week1-q10-E.png"
+      }
+    ],
+    "correctAnswers": [
+      "E"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      5
+    ],
+    "sourceImage": "/assets/week1-q10-statement.png",
+    "answerEvidence": "/assets/week1-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "E"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q1",
+    "week": 2,
+    "questionNumber": 1,
+    "questionText": "Which of the following statements is NOT true about Thompson Sampling or Posterior Sampling?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "After each sample is drawn, the $q_*$ distribution for that sampled arm is updated to be closer to the true distribution.",
+        "sourceImage": "/assets/week2-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Thompson sampling has been shown to generally give better regret bounds than UCB.",
+        "sourceImage": "/assets/week2-q1-B.png"
+      },
+      {
+        "id": "C",
+        "text": "In Thompson sampling, we do not need to eliminate arms each round to get good sample complexity.",
+        "sourceImage": "/assets/week2-q1-C.png"
+      },
+      {
+        "id": "D",
+        "text": "The algorithm requires that we use Gaussian priors to represent distributions over $q_*$ values for each arm.",
+        "sourceImage": "/assets/week2-q1-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      6
+    ],
+    "sourceImage": "/assets/week2-q1-statement.png",
+    "answerEvidence": "/assets/week2-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q2",
+    "week": 2,
+    "questionNumber": 2,
+    "questionText": "In UCB, the term $\\sqrt{\\frac{2\\ln(n)}{n_j}}$ is added to each arm’s Q value and the arm with the highest value of this sum is chosen. Which one of the following would definitely happen to the frequency of picking sub-optimal arms when adding $\\sqrt{\\frac{2\\ln(n)}{n_j^2}}$ instead of $\\sqrt{\\frac{2\\ln(n)}{n_j}}$?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Sub-optimal arms would be chosen more frequently.",
+        "sourceImage": "/assets/week2-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Sub-optimal arms would be chosen less frequently.",
+        "sourceImage": "/assets/week2-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Makes no change to the frequency of picking sub-optimal arms.",
+        "sourceImage": "/assets/week2-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Sub-optimal arms could be chosen less or more frequently, depending on the samples.",
+        "sourceImage": "/assets/week2-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      6
+    ],
+    "sourceImage": "/assets/week2-q2-statement.png",
+    "answerEvidence": "/assets/week2-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q3",
+    "week": 2,
+    "questionNumber": 3,
+    "questionText": "In the proof of the UCB Theorem, when $l=\\lceil 8\\ln m/\\Delta_i^2\\rceil$, $q_*(a^*)-q_*(i)-2C_{m,l}=0$. Which of the following correctly explains $q_*(a^*)-q_*(i)-2C_{m,T_i(s_i)}$ being less than 0 when we replace this fixed value of $l$ by the value $T_i(s_i)$: the number of times the arm i is selected?\nNote: $C_{m,l}=\\sqrt{2\\ln(m)/l}$, $q_*(a^*)-q_*(i)=\\Delta_i$",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$T_i(s_i)<l$ thus $C_{m,T_i(s_i)}<C_{m,l}$.",
+        "sourceImage": "/assets/week2-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$T_i(s_i)>m$ thus $C_{m,T_i(s_i)}<C_{m,l}$.",
+        "sourceImage": "/assets/week2-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$T_i(s_i)>l$ thus $C_{m,T_i(s_i)}<C_{m,l}$.",
+        "sourceImage": "/assets/week2-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$T_i(s_i)<l$ thus $C_{m,T_i(s_i)}>C_{m,l}$.",
+        "sourceImage": "/assets/week2-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      7
+    ],
+    "sourceImage": "/assets/week2-q3-statement.png",
+    "answerEvidence": "/assets/week2-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q4",
+    "week": 2,
+    "questionNumber": 4,
+    "questionText": "Which of the following is true about the Median Elimination algorithm?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is a regret minimizing algorithm.",
+        "sourceImage": "/assets/week2-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "The probability of the $\\epsilon_l$-optimal arms of round $l$ being eliminated is less than $\\delta_l$ for the round.",
+        "sourceImage": "/assets/week2-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "It is guaranteed to provide an $\\epsilon$-optimal arm at the end.",
+        "sourceImage": "/assets/week2-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Replacing $\\epsilon$ with $\\frac{\\epsilon}{2}$ doubles the sample complexity.",
+        "sourceImage": "/assets/week2-q4-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      7
+    ],
+    "sourceImage": "/assets/week2-q4-statement.png",
+    "answerEvidence": "/assets/week2-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q5",
+    "week": 2,
+    "questionNumber": 5,
+    "questionText": "We need 8 rounds of median-elimination to get an $(\\epsilon,\\delta)$-PAC arm. Approximately how many samples would have been required using the naive $(\\epsilon,\\delta)$-PAC algorithm given $(\\epsilon,\\delta)=(1/2,1/e)$? (Choose the value closest to the correct answer)",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "15000",
+        "sourceImage": "/assets/week2-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "10000",
+        "sourceImage": "/assets/week2-q5-B.png"
+      },
+      {
+        "id": "C",
+        "text": "500",
+        "sourceImage": "/assets/week2-q5-C.png"
+      },
+      {
+        "id": "D",
+        "text": "20000",
+        "sourceImage": "/assets/week2-q5-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      8
+    ],
+    "sourceImage": "/assets/week2-q5-statement.png",
+    "answerEvidence": "/assets/week2-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q6",
+    "week": 2,
+    "questionNumber": 6,
+    "questionText": "In case of UCB, the regret is generally of the form $f(n)+c$, where, for the confidence bound given by $\\sqrt{\\frac{2\\ln(n)}{n_j}}$, $f(n)=\\sum_{j=1}^k\\frac{8\\ln(n)}{\\Delta_j}$ and $c=(1+\\frac{\\pi^2}{3})\\sum_{j=1}^k\\Delta_j$. What is the form of $f(n)$ for the confidence bound given by $\\sqrt{\\frac{\\alpha\\ln(n)}{n_j}}$, where $\\alpha\\geq2$?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\sum_{j=1}^k\\frac{4\\alpha\\ln(n)}{\\Delta_j}$",
+        "sourceImage": "/assets/week2-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\sum_{j=1}^k\\frac{2\\alpha^2\\ln(n)}{\\Delta_j}$",
+        "sourceImage": "/assets/week2-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\sum_{j=1}^k\\frac{\\alpha^3\\ln(n)}{\\Delta_j}$",
+        "sourceImage": "/assets/week2-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$\\sum_{j=1}^k\\frac{\\alpha^4\\ln(n)}{2\\Delta_j}$",
+        "sourceImage": "/assets/week2-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      8
+    ],
+    "sourceImage": "/assets/week2-q6-statement.png",
+    "answerEvidence": "/assets/week2-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q7",
+    "week": 2,
+    "questionNumber": 7,
+    "questionText": "In the naive $(\\epsilon,\\delta)$-PAC algorithm, suppose we draw $\\frac{2}{\\epsilon^2}\\ln(\\frac{k}{\\delta})$ samples for each arm instead of $\\frac{2}{\\epsilon^2}\\ln(\\frac{2k}{\\delta})$ samples. Using the same analysis presented in the lectures, with what probability can we guarantee that the arm $a^\\prime$ returned will have $q_*(a^\\prime)$ value $\\epsilon$ close to the $q_*$ value of the optimal arm?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$1-\\delta$",
+        "sourceImage": "/assets/week2-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$1-4\\delta$",
+        "sourceImage": "/assets/week2-q7-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$1-2\\delta$",
+        "sourceImage": "/assets/week2-q7-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$1-\\frac{\\delta}{2}$",
+        "sourceImage": "/assets/week2-q7-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      9
+    ],
+    "sourceImage": "/assets/week2-q7-statement.png",
+    "answerEvidence": "/assets/week2-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q8",
+    "week": 2,
+    "questionNumber": 8,
+    "questionText": "In median elimination method for obtaining $(\\epsilon,\\delta)$-PAC bounds, which of the following is a plausible update rule for $\\epsilon_l$ and $\\delta_l$ if $\\epsilon_1=\\frac{\\epsilon}{3}$ and $\\delta_1=\\frac{\\delta}{4}$?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\epsilon_{l+1}=\\frac{3\\epsilon_l}{4}$ and $\\delta_{l+1}=\\frac{4\\delta_l}{5}$",
+        "sourceImage": "/assets/week2-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\epsilon_{l+1}=\\frac{3\\epsilon_l}{4}$ and $\\delta_{l+1}=\\frac{3\\delta_l}{4}$",
+        "sourceImage": "/assets/week2-q8-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\epsilon_{l+1}=\\frac{2\\epsilon_l}{3}$ and $\\delta_{l+1}=\\frac{3\\delta_l}{4}$",
+        "sourceImage": "/assets/week2-q8-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$\\epsilon_{l+1}=\\frac{2\\epsilon_l}{3}$ and $\\delta_{l+1}=\\frac{4\\delta_l}{5}$",
+        "sourceImage": "/assets/week2-q8-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      9
+    ],
+    "sourceImage": "/assets/week2-q8-statement.png",
+    "answerEvidence": "/assets/week2-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q9",
+    "week": 2,
+    "questionNumber": 9,
+    "questionText": "Suppose we are facing a non-stationary bandit problem. We want to use posterior sampling for picking the correct arm. What is the likely change that needs to be done to the algorithm so that it can adapt to non-stationarity?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Update the posterior rarely.",
+        "sourceImage": "/assets/week2-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Randomly shift the posterior drastically from time to time.",
+        "sourceImage": "/assets/week2-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Keep adding a slight noise to the posterior to prevent its variance from going down quickly.",
+        "sourceImage": "/assets/week2-q9-C.png"
+      },
+      {
+        "id": "D",
+        "text": "No change is required.",
+        "sourceImage": "/assets/week2-q9-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      10
+    ],
+    "sourceImage": "/assets/week2-q9-statement.png",
+    "answerEvidence": "/assets/week2-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week2-q10",
+    "week": 2,
+    "questionNumber": 10,
+    "questionText": "In median elimination method for $(\\epsilon,\\delta)$-PAC bounds, we claim that for every phase $l$, $\\Pr[A\\leq B+\\epsilon_l]>1-\\delta_l$. ($S_l$ is the set of arms remaining in the $l^{th}$ phase.)\nConsider the following statements:\n(i) A – is the maximum of rewards of true best arm in $S_l$, i.e. in $l^{th}$ phase\n(ii) B – is the maximum of rewards of true best arm in $S_{l+1}$, i.e. in $(l+1)^{th}$ phase\n(iii) B – is the minimum of rewards of true best arm in $S_{l+1}$, i.e. in $(l+1)^{th}$ phase\n(iv) A – is the minimum of rewards of true best arm in $S_l$, i.e. in $l^{th}$ phase\n(v) A – is the maximum of rewards of true best arm in $S_{l+1}$, i.e. in $(l+1)^{th}$ phase\n(vi) B – is the maximum of rewards of true best arm in $S_l$, i.e. in $l^{th}$ phase\nWhich of the statements above are correct?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "i and ii",
+        "sourceImage": "/assets/week2-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "iii and iv",
+        "sourceImage": "/assets/week2-q10-B.png"
+      },
+      {
+        "id": "C",
+        "text": "v and vi",
+        "sourceImage": "/assets/week2-q10-C.png"
+      },
+      {
+        "id": "D",
+        "text": "i and iii",
+        "sourceImage": "/assets/week2-q10-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      10
+    ],
+    "sourceImage": "/assets/week2-q10-statement.png",
+    "answerEvidence": "/assets/week2-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week3-q1",
+    "week": 3,
+    "questionNumber": 1,
+    "questionText": "Which of the following is true for an MDP?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\Pr(s_{t+1},r_{t+1}\\mid s_t,a_t)=\\Pr(s_{t+1},r_{t+1})$",
+        "sourceImage": "/assets/week3-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\Pr(s_{t+1},r_{t+1}\\mid s_t,a_t,s_{t-1},a_{t-1},s_{t-2},a_{t-2},\\ldots,s_0,a_0)=\\Pr(s_{t+1},r_{t+1}\\mid s_t,a_t)$",
+        "sourceImage": "/assets/week3-q1-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\Pr(s_{t+1},r_{t+1}\\mid s_t,a_t)=\\Pr(s_{t+1},r_{t+1}\\mid s_0,a_0)$",
+        "sourceImage": "/assets/week3-q1-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$\\Pr(s_{t+1},r_{t+1}\\mid s_t,a_t)=\\Pr(s_t,r_t\\mid s_{t-1},a_{t-1})$",
+        "sourceImage": "/assets/week3-q1-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      11
+    ],
+    "sourceImage": "/assets/week3-q1-statement.png",
+    "answerEvidence": "/assets/week3-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week3-q2",
+    "week": 3,
+    "questionNumber": 2,
+    "questionText": "The baseline in the REINFORCE update should not depend on which of the following (without voiding any of the steps in the proof of REINFORCE)?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$r_{n-1}$",
+        "sourceImage": "/assets/week3-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$r_n$",
+        "sourceImage": "/assets/week3-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Action taken ($a_n$)",
+        "sourceImage": "/assets/week3-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week3-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      11
+    ],
+    "sourceImage": "/assets/week3-q2-statement.png",
+    "answerEvidence": "/assets/week3-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week3-q3",
+    "week": 3,
+    "questionNumber": 3,
+    "questionText": "In many supervised machine learning algorithms, such as neural networks, we rely on the gradient descent technique. However, in the policy gradient approach to bandit problems, we made use of gradient ascent. This discrepancy can mainly be attributed to the differences in",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "the objectives of the learning tasks",
+        "sourceImage": "/assets/week3-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "the parameters of the functions whose gradient are being calculated",
+        "sourceImage": "/assets/week3-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "the nature of the feedback received by the algorithms",
+        "sourceImage": "/assets/week3-q3-C.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      12
+    ],
+    "sourceImage": "/assets/week3-q3-statement.png",
+    "answerEvidence": "/assets/week3-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week3-q4",
+    "week": 3,
+    "questionNumber": 4,
+    "questionText": "In case of linear bandits, let’s consider we have 2 actions – $a_1$ and $a_2$. The policy $\\pi$ to be followed when encountering a state $s$ is given by\n$\\pi(a_1\\mid s)=\\frac{e^{w_1^Ts}}{e^{w_1^Ts}+e^{w_2^Ts}}$, $\\pi(a_2\\mid s)=\\frac{e^{w_2^Ts}}{e^{w_1^Ts}+e^{w_2^Ts}}$\nwhere $w_1$ and $w_2$ are weight vectors associated with $a_1$ and $a_2$ respectively. If we are using REINFORCE to learn the parameters, what will be the update for $w_1$ and $w_2$, when we pull action $a_1$?\n(i) $w_1\\leftarrow w_1+\\alpha r(s-\\frac{e^{w_1^Ts}}{e^{w_1^Ts}+e^{w_2^Ts}}s)$\n(ii) $w_1\\leftarrow w_1+\\alpha r(-\\frac{e^{w_1^Ts}}{e^{w_1^Ts}+e^{w_2^Ts}}s)$\n(iii) $w_2\\leftarrow w_2+\\alpha r(s-\\frac{e^{w_2^Ts}}{e^{w_1^Ts}+e^{w_2^Ts}}s)$\n(iv) $w_2\\leftarrow w_2+\\alpha r(-\\frac{e^{w_2^Ts}}{e^{w_1^Ts}+e^{w_2^Ts}}s)$\nWhich of the above updates are correct?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "(i), (ii)",
+        "sourceImage": "/assets/week3-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "(i), (iv)",
+        "sourceImage": "/assets/week3-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "(ii), (iii)",
+        "sourceImage": "/assets/week3-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "(ii), (iv)",
+        "restored": true
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": "Independent explanation: Write $p_j=\\pi(a_j\\mid s)$. Since $\\log\\pi(a_1\\mid s)=w_1^Ts-\\log(e^{w_1^Ts}+e^{w_2^Ts})$, its gradients are $\\nabla_{w_1}\\log\\pi(a_1\\mid s)=(1-p_1)s$ and $\\nabla_{w_2}\\log\\pi(a_1\\mid s)=-p_2s$. Multiplication by $\\alpha r$ gives updates (i) and (iv), so B is correct.",
+    "sourcePages": [
+      12
+    ],
+    "sourceImage": "/assets/week3-q4-statement.png",
+    "answerEvidence": null,
+    "verification": "independently-solved",
+    "issues": [
+      "The final option and accepted-answer label are cut off on page 12. A–C are transcribed from the PDF. D is an independently reconstructed distractor, not a recovered original. The correct answer B is independently verified."
+    ],
+    "diagrams": [],
+    "officialCorrectAnswers": null,
+    "answerOrigin": "Independent symbolic derivation and numerical gradient check",
+    "transcriptionStatus": "visually-reviewed",
+    "restorationNote": "The final option and accepted-answer label are cut off on page 12. A–C are transcribed from the PDF. D is an independently reconstructed distractor, not a recovered original. The correct answer B is independently verified.",
+    "references": [
+      {
+        "title": "Policy gradient and softmax foundations (OpenAI Spinning Up)",
+        "url": "https://spinningup.openai.com/en/latest/spinningup/rl_intro3.html"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "id": "week3-q5",
+    "week": 3,
+    "questionNumber": 5,
+    "questionText": "The update in REINFORCE is given by $\\theta_{t+1}=\\theta_t+\\alpha r_t\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}$, where $r_t\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}$ is an unbiased estimator of the true gradient of the performance function. However, there was another variant of REINFORCE, where a baseline $b$, that is independent of the action taken, is subtracted from the obtained reward, i.e., the update is given by $\\theta_{t+1}=\\theta_t+\\alpha(r_t-b)\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}$. How are $\\mathbb{E}[(r_t-b)\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}]$ and $\\mathbb{E}[r_t\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}]$?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\mathbb{E}[(r_t-b)\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}]=\\mathbb{E}[r_t\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}]$",
+        "sourceImage": "/assets/week3-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\mathbb{E}[(r_t-b)\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}]<\\mathbb{E}[r_t\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}]$",
+        "sourceImage": "/assets/week3-q5-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\mathbb{E}[(r_t-b)\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}]>\\mathbb{E}[r_t\\frac{\\partial\\ln\\pi(a_t;\\theta_t)}{\\partial\\theta_t}]$",
+        "sourceImage": "/assets/week3-q5-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Could be either of a, b or c, depending on the choice of baseline",
+        "sourceImage": "/assets/week3-q5-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      13
+    ],
+    "sourceImage": "/assets/week3-q5-statement.png",
+    "answerEvidence": "/assets/week3-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week3-q6",
+    "week": 3,
+    "questionNumber": 6,
+    "questionText": "Consider the following policy-search algorithm for a multi-armed binary bandit:\n$\\forall a,\\;\\pi_{t+1}(a)=\\pi_t(a)(1-\\alpha)+\\alpha(\\mathbf{1}_{a=a_t}r_t+(1-\\mathbf{1}_{a=a_t})(1-r_t))$ where $\\mathbf{1}_{a=a_t}$ is 1 if $a=a_t$ and 0 otherwise. Which of the following is true for the above algorithm?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "It is $L_{R-I}$ algorithm.",
+        "sourceImage": "/assets/week3-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "It is $L_{R-\\epsilon P}$ algorithm.",
+        "sourceImage": "/assets/week3-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "It would work well if the best arm had probability of 0.9 of resulting in +1 reward and the next best arm had probability of 0.5 of resulting in +1 reward",
+        "sourceImage": "/assets/week3-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "It would work well if the best arm had probability of 0.3 of resulting in +1 reward and the worst arm had probability of 0.25 of resulting in +1 reward",
+        "sourceImage": "/assets/week3-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      13
+    ],
+    "sourceImage": "/assets/week3-q6-statement.png",
+    "answerEvidence": "/assets/week3-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week3-q7",
+    "week": 3,
+    "questionNumber": 7,
+    "questionText": "The actions in contextual bandits do not determine the next state, but typically do in full RL problems. True or false?",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week3-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week3-q7-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      14
+    ],
+    "sourceImage": "/assets/week3-q7-statement.png",
+    "answerEvidence": "/assets/week3-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week3-q8",
+    "week": 3,
+    "questionNumber": 8,
+    "questionText": "In a continuous action space environment, we can employ any value function-based algorithm to discover an optimal policy.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week3-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week3-q8-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      14
+    ],
+    "sourceImage": "/assets/week3-q8-statement.png",
+    "answerEvidence": "/assets/week3-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week3-q9",
+    "week": 3,
+    "questionNumber": 9,
+    "questionText": "Let’s assume for some full RL problem we are acting according to a policy $\\pi$. At some time $t$, we are in a state $s$ where we took action $a_1$. After few time steps, at time $t^\\prime$, the same state $s$ was reached where we performed an action $a_2$ ($\\neq a_1$). Which of the following statements is true?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\pi$ is definitely a stationary policy",
+        "sourceImage": "/assets/week3-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\pi$ is definitely a non-stationary policy",
+        "sourceImage": "/assets/week3-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\pi$ can be stationary or non-stationary",
+        "sourceImage": "/assets/week3-q9-C.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      14
+    ],
+    "sourceImage": "/assets/week3-q9-statement.png",
+    "answerEvidence": "/assets/week3-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week3-q10",
+    "week": 3,
+    "questionNumber": 10,
+    "questionText": "In solving a multi-arm bandit problem using the policy gradient method, are we assured of converging to the optimal solution?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "No",
+        "sourceImage": "/assets/week3-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Yes",
+        "sourceImage": "/assets/week3-q10-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      15
+    ],
+    "sourceImage": "/assets/week3-q10-statement.png",
+    "answerEvidence": "/assets/week3-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q1",
+    "week": 4,
+    "questionNumber": 1,
+    "questionText": "State True/False The state transition graph for any MDP is a directed acyclic graph.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week4-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week4-q1-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      16
+    ],
+    "sourceImage": "/assets/week4-q1-statement.png",
+    "answerEvidence": "/assets/week4-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q2",
+    "week": 4,
+    "questionNumber": 2,
+    "questionText": "Consider the following statements:\n(i) The optimal policy of an MDP is unique.\n(ii) We can determine an optimal policy for a MDP using only the optimal value function ($v^*$), without accessing the MDP parameters.\n(iii) We can determine an optimal policy for a given MDP using only the optimal q-value function ($q^*$), without accessing the MDP parameters.\nWhich of these statements are true?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only (ii)",
+        "sourceImage": "/assets/week4-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Only (iii)",
+        "sourceImage": "/assets/week4-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Only (i), (ii)",
+        "sourceImage": "/assets/week4-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Only (i), (iii)",
+        "sourceImage": "/assets/week4-q2-D.png"
+      },
+      {
+        "id": "E",
+        "text": "Only (ii), (iii)",
+        "sourceImage": "/assets/week4-q2-E.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      16
+    ],
+    "sourceImage": "/assets/week4-q2-statement.png",
+    "answerEvidence": "/assets/week4-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q3",
+    "week": 4,
+    "questionNumber": 3,
+    "questionText": "Which of the following is a benefit of using RL algorithms for solving MDPs?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "They do not require the state of the agent for solving a MDP.",
+        "sourceImage": "/assets/week4-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "They do not require the action taken by the agent for solving a MDP.",
+        "sourceImage": "/assets/week4-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "They do not require the state transition probability matrix for solving a MDP.",
+        "sourceImage": "/assets/week4-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "They do not require the reward signal for solving a MDP.",
+        "sourceImage": "/assets/week4-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      17
+    ],
+    "sourceImage": "/assets/week4-q3-statement.png",
+    "answerEvidence": "/assets/week4-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q4",
+    "week": 4,
+    "questionNumber": 4,
+    "questionText": "Consider the following equations:\n(i) $v^\\pi(s)=\\mathbb{E}_\\pi[\\sum_{i=t}^\\infty\\gamma^{i-t}R_{i+1}\\mid S_t=s]$\n(ii) $q^\\pi(s,a)=\\sum_{s^\\prime}p(s^\\prime\\mid s,a)v^\\pi(s^\\prime)$\n(iii) $v^\\pi(s)=\\sum_a\\pi(a\\mid s)q^\\pi(s,a)$\nWhich of the above are correct?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only (i)",
+        "sourceImage": "/assets/week4-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Only (i), (ii)",
+        "sourceImage": "/assets/week4-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Only (ii), (iii)",
+        "sourceImage": "/assets/week4-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Only (i), (iii)",
+        "sourceImage": "/assets/week4-q4-D.png"
+      },
+      {
+        "id": "E",
+        "text": "(i), (ii), (iii)",
+        "sourceImage": "/assets/week4-q4-E.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      17
+    ],
+    "sourceImage": "/assets/week4-q4-statement.png",
+    "answerEvidence": "/assets/week4-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q5",
+    "week": 4,
+    "questionNumber": 5,
+    "questionText": "State True/False While solving MDPs, in case of discounted rewards, the value of $\\gamma$ (discount factor) cannot affect the optimal policy",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week4-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week4-q5-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      18
+    ],
+    "sourceImage": "/assets/week4-q5-statement.png",
+    "answerEvidence": "/assets/week4-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q6",
+    "week": 4,
+    "questionNumber": 6,
+    "questionText": "Consider the following statements for a finite MDP ($I$ is an identity matrix with dimensions $|S|\\times|S|$ ($S$ is the set of all states) and $P_\\pi$ is a stochastic matrix):\n(i) MDP with stochastic rewards may not have a deterministic optimal policy.\n(ii) There can be multiple optimal stochastic policies.\n(iii) If $0\\leq\\gamma<1$, then rank of the matrix $I-\\gamma P_\\pi$ is equal to $|S|$.\n(iv) If $0\\leq\\gamma<1$, then rank of the matrix $I-\\gamma P_\\pi$ is less than $|S|$.\nWhich of the above statements are true?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only (ii), (iii)",
+        "sourceImage": "/assets/week4-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Only (i), (iv)",
+        "sourceImage": "/assets/week4-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Only (i), (iii)",
+        "sourceImage": "/assets/week4-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Only (i), (ii), (iii)",
+        "sourceImage": "/assets/week4-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      18
+    ],
+    "sourceImage": "/assets/week4-q6-statement.png",
+    "answerEvidence": "/assets/week4-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q7",
+    "week": 4,
+    "questionNumber": 7,
+    "questionText": "Consider an MDP with 3 states A, B, C. From each state, we can go to either of the two states, i.e., from state A, we can perform 2 actions, that lead to state B and C respectively. The rewards for all the transitions are: $r(A,B)=2$ (reward if we go from A to B), $r(B,A)=5$, $r(B,C)=7$, $r(C,B)=10$, $r(A,C)=1$, $r(C,A)=12$. The discount factor is 0.7. Find the value function for the policy given by: $\\pi(A)=C$ (if we are in state A, we choose the action to go to C), $\\pi(B)=A$ and $\\pi(C)=B$ ($[v^\\pi(A),v^\\pi(B),v^\\pi(C)]$)",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "[10.2, 16.7, 20.2]",
+        "sourceImage": "/assets/week4-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "[14.2, 16.5, 15.1]",
+        "sourceImage": "/assets/week4-q7-B.png"
+      },
+      {
+        "id": "C",
+        "text": "[15.9, 16.1, 21.3]",
+        "sourceImage": "/assets/week4-q7-C.png"
+      },
+      {
+        "id": "D",
+        "text": "[12.2, 6.2, 14.5]",
+        "sourceImage": "/assets/week4-q7-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      19
+    ],
+    "sourceImage": "/assets/week4-q7-statement.png",
+    "answerEvidence": "/assets/week4-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q8",
+    "week": 4,
+    "questionNumber": 8,
+    "questionText": "Suppose x is a fixed point for the function A, y is a fixed point for the function B, and x = BA(x), where BA is the composition of B and A. Consider the following statements:\n(i) x is a fixed point for B\n(ii) x = y\n(iii) BA(y) = y\nWhich of the above must be true?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only (i)",
+        "sourceImage": "/assets/week4-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Only (ii)",
+        "sourceImage": "/assets/week4-q8-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Only (i), (ii)",
+        "sourceImage": "/assets/week4-q8-C.png"
+      },
+      {
+        "id": "D",
+        "text": "(i), (ii), (iii)",
+        "sourceImage": "/assets/week4-q8-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      19
+    ],
+    "sourceImage": "/assets/week4-q8-statement.png",
+    "answerEvidence": "/assets/week4-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q9",
+    "week": 4,
+    "questionNumber": 9,
+    "questionText": "Which of the following is not a valid norm function? (x is a D dimensional vector)",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\max_{d\\in\\{1,\\ldots,D\\}}|x_d|$",
+        "sourceImage": "/assets/week4-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\sqrt{\\sum_{d=1}^D x_d^2}$",
+        "sourceImage": "/assets/week4-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\min_{d\\in\\{1,\\ldots,D\\}}|x_d|$",
+        "sourceImage": "/assets/week4-q9-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$\\sum_{d=1}^D|x_d|$",
+        "sourceImage": "/assets/week4-q9-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      20
+    ],
+    "sourceImage": "/assets/week4-q9-statement.png",
+    "answerEvidence": "/assets/week4-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week4-q10",
+    "week": 4,
+    "questionNumber": 10,
+    "questionText": "Which of the following is a contraction mapping in any norm?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$T([x_1,x_2])=[0.5x_1,0.5x_2]$",
+        "sourceImage": "/assets/week4-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$T([x_1,x_2])=[2x_1,2x_2]$",
+        "sourceImage": "/assets/week4-q10-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$T([x_1,x_2])=[2x_1,3x_2]$",
+        "sourceImage": "/assets/week4-q10-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$T([x_1,x_2])=[x_1+x_2,x_1-x_2]$",
+        "sourceImage": "/assets/week4-q10-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      20
+    ],
+    "sourceImage": "/assets/week4-q10-statement.png",
+    "answerEvidence": "/assets/week4-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week5-q1",
+    "week": 5,
+    "questionNumber": 1,
+    "questionText": "In policy iteration, which of the following is/are true of the Policy Evaluation (PE) and Policy Improvement (PI) steps?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "The values of states that are returned by PE may fluctuate between high and low values as the algorithm runs.",
+        "sourceImage": "/assets/week5-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "PE returns the fixed point of $L_\\pi$.",
+        "sourceImage": "/assets/week5-q1-B.png"
+      },
+      {
+        "id": "C",
+        "text": "PI can randomly select any greedy policy for a given value function $v^\\pi$.",
+        "sourceImage": "/assets/week5-q1-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Policy iteration always converges for a finite MDP.",
+        "sourceImage": "/assets/week5-q1-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      21
+    ],
+    "sourceImage": "/assets/week5-q1-statement.png",
+    "answerEvidence": "/assets/week5-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B",
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week5-q2",
+    "week": 5,
+    "questionNumber": 2,
+    "questionText": "Consider Monte-Carlo approach for policy evaluation. Suppose the states are $S_1,S_2,S_3,S_4,S_5,S_6$ and terminal_state. You sample one trajectory as follows – $S_1\\to S_5\\to S_4\\to S_6\\to\\mathrm{terminal\\_state}$.\nWhich among the following states can be updated from this sample?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$S_1$",
+        "sourceImage": "/assets/week5-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$S_2$",
+        "sourceImage": "/assets/week5-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$S_6$",
+        "sourceImage": "/assets/week5-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$S_4$",
+        "sourceImage": "/assets/week5-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      21
+    ],
+    "sourceImage": "/assets/week5-q2-statement.png",
+    "answerEvidence": "/assets/week5-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week5-q3",
+    "week": 5,
+    "questionNumber": 3,
+    "questionText": "Which of the following statements are true with regards to Monte Carlo value approximation methods?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "To evaluate a policy using these methods, a subset of trajectories in which all states are encountered at least once are enough to update all state-values.",
+        "sourceImage": "/assets/week5-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Monte-Carlo value function approximation methods need knowledge of the full model.",
+        "sourceImage": "/assets/week5-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Monte-Carlo methods update state-value estimates only at the end of an episode.",
+        "sourceImage": "/assets/week5-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "All of the above.",
+        "sourceImage": "/assets/week5-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      22
+    ],
+    "sourceImage": "/assets/week5-q3-statement.png",
+    "answerEvidence": "/assets/week5-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week5-q4",
+    "week": 5,
+    "questionNumber": 4,
+    "questionText": "In every visit Monte Carlo methods, multiple samples for one state are obtained from a single trajectory. Which of the following is true?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "There is an increase in bias of the estimates.",
+        "sourceImage": "/assets/week5-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "There is an increase in variance of the estimates.",
+        "sourceImage": "/assets/week5-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "It does not affect the bias or variance of estimates.",
+        "sourceImage": "/assets/week5-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both bias and variance of the estimates increase.",
+        "sourceImage": "/assets/week5-q4-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      22
+    ],
+    "sourceImage": "/assets/week5-q4-statement.png",
+    "answerEvidence": "/assets/week5-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week5-q5",
+    "week": 5,
+    "questionNumber": 5,
+    "questionText": "Which of the following statements are FALSE about solving MDPs using dynamic programming?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "if the state space is large or computation power is limited, it is preferred to update only some states through random sampling or selecting states seen in trajectories.",
+        "sourceImage": "/assets/week5-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Knowledge of transition probabilities is not necessary for solving MDPs using dynamic programming.",
+        "sourceImage": "/assets/week5-q5-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Methods that update only a subset of states at a time guarantee performance equal to or better than classic DP.",
+        "sourceImage": "/assets/week5-q5-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above.",
+        "sourceImage": "/assets/week5-q5-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      23
+    ],
+    "sourceImage": "/assets/week5-q5-statement.png",
+    "answerEvidence": "/assets/week5-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B",
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week5-q6",
+    "week": 5,
+    "questionNumber": 6,
+    "questionText": "Select the correct statements about Generalized Policy Iteration (GPI).",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "GPI lets policy evaluation and policy improvement interact with each other regardless of the details of the two processes.",
+        "sourceImage": "/assets/week5-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Before convergence, the policy evaluation step will usually cause the policy to no longer be greedy with respect to the updated value function.",
+        "sourceImage": "/assets/week5-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "GPI converges only when a policy has been found which is greedy with respect to its own value function.",
+        "sourceImage": "/assets/week5-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "The policy and value function found by GPI at convergence with both be optimal.",
+        "sourceImage": "/assets/week5-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      23
+    ],
+    "sourceImage": "/assets/week5-q6-statement.png",
+    "answerEvidence": "/assets/week5-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week5-q7",
+    "week": 5,
+    "questionNumber": 7,
+    "questionText": "What is meant by \"off-policy” Monte Carlo value function evaluation?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "The policy being evaluated is the same as the policy used to generate samples.",
+        "sourceImage": "/assets/week5-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "The policy being evaluated is different from the policy used to generate samples.",
+        "sourceImage": "/assets/week5-q7-B.png"
+      },
+      {
+        "id": "C",
+        "text": "The policy being learnt is different from the policy used to generate samples.",
+        "sourceImage": "/assets/week5-q7-C.png"
+      },
+      {
+        "id": "D",
+        "text": "The policy being learnt is the same as the policy used to generate the samples",
+        "sourceImage": "/assets/week5-q7-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      24
+    ],
+    "sourceImage": "/assets/week5-q7-statement.png",
+    "answerEvidence": "/assets/week5-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week5-q8",
+    "week": 5,
+    "questionNumber": 8,
+    "questionText": "For both value and policy iteration algorithms we will get a sequence of vectors after some iterations, say $v_1,v_2,\\ldots,v_n$ for value iteration and $v_1^\\prime,v_2^\\prime,\\ldots,v_n^\\prime$ for policy iteration. Which of the following statements are true.",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "For all $v_i\\in v_1,v_2,\\ldots,v_n$ there exists a policy for which $v_i$ is the fixed point.",
+        "sourceImage": "/assets/week5-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "For all $v_i^\\prime\\in v_1^\\prime,v_2^\\prime,\\ldots,v_n^\\prime$ there exists a policy for which $v_i^\\prime$ is a fixed point.",
+        "sourceImage": "/assets/week5-q8-B.png"
+      },
+      {
+        "id": "C",
+        "text": "For all $v_i\\in v_1,v_2,\\ldots,v_n$ there may not exist a policy for which $v_i$ is a fixed point.",
+        "sourceImage": "/assets/week5-q8-C.png"
+      },
+      {
+        "id": "D",
+        "text": "For all $v_i^\\prime\\in v_1^\\prime,v_2^\\prime,\\ldots,v_n^\\prime$ there may not exist a policy for which $v_i^\\prime$ is a fixed point.",
+        "sourceImage": "/assets/week5-q8-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      24
+    ],
+    "sourceImage": "/assets/week5-q8-statement.png",
+    "answerEvidence": "/assets/week5-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B",
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q1",
+    "week": 6,
+    "questionNumber": 1,
+    "questionText": "Assertion: In order to use importance sampling for off-policy Monte-Carlo policy evaluation, we require knowledge of the state transition probabilities of the MDP.\nReason: We require knowledge of the probability of each trajectory $x_i$ according to the estimation policy and according to the behaviour policy. Both of these values are dependent on the state transition probabilities of the MDP.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week6-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week6-q1-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true, Reason is false",
+        "sourceImage": "/assets/week6-q1-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week6-q1-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      25
+    ],
+    "sourceImage": "/assets/week6-q1-statement.png",
+    "answerEvidence": "/assets/week6-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q2",
+    "week": 6,
+    "questionNumber": 2,
+    "questionText": "Which of the following are true?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Dynamic programming methods use full backups and bootstrapping.",
+        "sourceImage": "/assets/week6-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Temporal-Difference methods use sample backups and bootstrapping.",
+        "sourceImage": "/assets/week6-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Monte-Carlo methods use sample backups and bootstrapping.",
+        "sourceImage": "/assets/week6-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Monte-Carlo methods use full backups and no bootstrapping.",
+        "sourceImage": "/assets/week6-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      25
+    ],
+    "sourceImage": "/assets/week6-q2-statement.png",
+    "answerEvidence": "/assets/week6-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q3",
+    "week": 6,
+    "questionNumber": 3,
+    "questionText": "Which of the following statement(s) is/are true for the UC-Trees algorithm?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "We typically require a simulation model for the environment.",
+        "sourceImage": "/assets/week6-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "it uses e-greedy exploration for action selection.",
+        "sourceImage": "/assets/week6-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "It computes an upper confidence bound on the value of (state, action) pairs.",
+        "sourceImage": "/assets/week6-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "It is a variation of the Monte-Carlo tree search algorithm.",
+        "sourceImage": "/assets/week6-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      26
+    ],
+    "sourceImage": "/assets/week6-q3-statement.png",
+    "answerEvidence": "/assets/week6-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "C",
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q4",
+    "week": 6,
+    "questionNumber": 4,
+    "questionText": "Consider the following statements:\n(i) TD(0) methods uses unbiased sample of the return.\n(ii) TD(0) methods uses a sample of the reward from the distribution of rewards.\n(iii) TD(0) methods uses the current estimate of value function.\nWhich of the above statements is/are true?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "(i), (ii)",
+        "sourceImage": "/assets/week6-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "(i), (iii)",
+        "sourceImage": "/assets/week6-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "(ii), (iii)",
+        "sourceImage": "/assets/week6-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "(i), (ii), (iii)",
+        "sourceImage": "/assets/week6-q4-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      26
+    ],
+    "sourceImage": "/assets/week6-q4-statement.png",
+    "answerEvidence": "/assets/week6-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q5",
+    "week": 6,
+    "questionNumber": 5,
+    "questionText": "Assertion: Q-learning can use asynchronous samples from different policies to update Q values.\nReason: Q-learning is an off-policy learning algorithm.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+        "sourceImage": "/assets/week6-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Assertion and Reason are both true and Reason is not a correct explanation of Assertion.",
+        "sourceImage": "/assets/week6-q5-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true but Reason is false.",
+        "sourceImage": "/assets/week6-q5-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Assertion is false but Reason is true.",
+        "sourceImage": "/assets/week6-q5-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      27
+    ],
+    "sourceImage": "/assets/week6-q5-statement.png",
+    "answerEvidence": "/assets/week6-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q6",
+    "week": 6,
+    "questionNumber": 6,
+    "questionText": "Suppose, for a 2 player game that we have modeled as an MDP instead of learning a policy over the MDP directly, we separate the deterministic and stochastic result of playing an action to create ‘after-states' (as discussed in the lectures). Consider the following statements:\n(i) The set of states that make up ‘after-states’ may be different from the original set of states for the MDP.\n(ii) The set of ‘after-states’ could be smaller than the original set of states for the MDP.\nWhich of the above statements is/are True?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only (i)",
+        "sourceImage": "/assets/week6-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Only (ii)",
+        "sourceImage": "/assets/week6-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Both (i) and (ii)",
+        "sourceImage": "/assets/week6-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Neither (i) nor (ii).",
+        "sourceImage": "/assets/week6-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      27
+    ],
+    "sourceImage": "/assets/week6-q6-statement.png",
+    "answerEvidence": "/assets/week6-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q7",
+    "week": 6,
+    "questionNumber": 7,
+    "questionText": "Consider the environment given below (CliffWorld discussed in lecture): Suppose we use $\\epsilon$-greedy policy for exploration with a value of $\\epsilon=0.1$. Select the correct option(s):",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Q-Learning finds the optimal (red) path.",
+        "sourceImage": "/assets/week6-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Q-Learning finds the safer (blue) path.",
+        "sourceImage": "/assets/week6-q7-B.png"
+      },
+      {
+        "id": "C",
+        "text": "SARSA finds the optimal (red) path.",
+        "sourceImage": "/assets/week6-q7-C.png"
+      },
+      {
+        "id": "D",
+        "text": "SARSA finds the safer (blue) path.",
+        "sourceImage": "/assets/week6-q7-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      28
+    ],
+    "sourceImage": "/assets/week6-q7-statement.png",
+    "answerEvidence": "/assets/week6-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [
+      {
+        "src": "/assets/week6-q7-cliff.png",
+        "alt": "Original CliffWorld grid: safe blue route, optimal red route, start S, goal G, cliff and reward labels.",
+        "sourcePage": 28
+      }
+    ],
+    "officialCorrectAnswers": [
+      "A",
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q8",
+    "week": 6,
+    "questionNumber": 8,
+    "questionText": "Assertion: Having a simulator/model is an advantage when using rollouts based methods.\nReason: Multiple trajectories can be sampled from the model from any given state.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+        "sourceImage": "/assets/week6-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Assertion and Reason are both true and Reason is not a correct explanation of Assertion.",
+        "sourceImage": "/assets/week6-q8-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true but Reason is false.",
+        "sourceImage": "/assets/week6-q8-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Assertion and Reason are both false.",
+        "sourceImage": "/assets/week6-q8-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      29
+    ],
+    "sourceImage": "/assets/week6-q8-statement.png",
+    "answerEvidence": "/assets/week6-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q9",
+    "week": 6,
+    "questionNumber": 9,
+    "questionText": "Consider an MDP with two states A and B. Given the single trajectory shown below (in the pattern of state, reward, next state...), use on-policy TD(0) updates to make estimates for the values of the 2 states.\nA, 3, B, 2, A, 5, B, 2, A, 4, END Assume a discount factor $\\gamma=1$, a learning rate $\\alpha=1$ and initial state-values of zero. What are the estimated values for the 2 states at the end of the sampled trajectory? (Note: You are not asked to compute the true values for the two states.)",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$V(A)=2,V(B)=10$",
+        "sourceImage": "/assets/week6-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$V(A)=8,V(B)=7$",
+        "sourceImage": "/assets/week6-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$V(A)=4,V(B)=12$",
+        "sourceImage": "/assets/week6-q9-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$V(A)=12,V(B)=7$",
+        "sourceImage": "/assets/week6-q9-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      30
+    ],
+    "sourceImage": "/assets/week6-q9-statement.png",
+    "answerEvidence": "/assets/week6-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week6-q10",
+    "week": 6,
+    "questionNumber": 10,
+    "questionText": "Which one of the following statements are True for SARSA?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "It uses bootstrapping to approximate full return.",
+        "sourceImage": "/assets/week6-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "It is an on-policy algorithm.",
+        "sourceImage": "/assets/week6-q10-B.png"
+      },
+      {
+        "id": "C",
+        "text": "It is a TD method.",
+        "sourceImage": "/assets/week6-q10-C.png"
+      },
+      {
+        "id": "D",
+        "text": "It always selects the greedy action choice.",
+        "sourceImage": "/assets/week6-q10-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      30
+    ],
+    "sourceImage": "/assets/week6-q10-statement.png",
+    "answerEvidence": "/assets/week6-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q1",
+    "week": 7,
+    "questionNumber": 1,
+    "questionText": "Which of the following is the corrected n-step truncated return?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$R_{t+n}+\\gamma^n V_t(s_{t+n})$",
+        "sourceImage": "/assets/week7-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$R_{t+1}+\\gamma R_{t+2}+\\gamma^2(R_{t+3})+\\ldots+\\gamma^{n-1}R_{t+n}+\\gamma^n V_t(s_{t+n})$",
+        "sourceImage": "/assets/week7-q1-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\gamma R_{t+1}+\\gamma^2 R_{t+2}+\\gamma^3(R_{t+3})+\\ldots+\\gamma^n R_{t+n}+V_t(s_{t+n})$",
+        "sourceImage": "/assets/week7-q1-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above.",
+        "sourceImage": "/assets/week7-q1-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      31
+    ],
+    "sourceImage": "/assets/week7-q1-statement.png",
+    "answerEvidence": "/assets/week7-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q2",
+    "week": 7,
+    "questionNumber": 2,
+    "questionText": "Which of the following is correct way to implement replacing traces?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$E_t(s)=\\begin{cases}1&\\text{if }s_t\\neq s\\\\(\\gamma\\lambda)E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$E_t(s)=\\begin{cases}(\\gamma\\lambda)E_{t-1}(s)+1&\\text{if }s_t=s\\\\(\\gamma\\lambda)E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$E_t(s)=\\begin{cases}(\\gamma\\lambda)E_{t-1}(s)+1&\\text{if }s_t\\neq s\\\\(\\gamma\\lambda)E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$E_t(s)=\\begin{cases}1&\\text{if }s_t=s\\\\(\\gamma\\lambda)E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      31
+    ],
+    "sourceImage": "/assets/week7-q2-statement.png",
+    "answerEvidence": "/assets/week7-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q3",
+    "week": 7,
+    "questionNumber": 3,
+    "questionText": "Assertion: TD(1), a way of implementing Monte Carlo with eligibility traces, extends Monte Carlo algorithm for continuing tasks.\nReason: TD(1), implemented with eligibility traces, is an offline algorithm.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assertion and Reason are both true and Reason is a correct explanation of Assertion",
+        "sourceImage": "/assets/week7-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Assertion and Reason are both true and Reason is not a correct explanation of Assertion",
+        "sourceImage": "/assets/week7-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true and Reason is false",
+        "sourceImage": "/assets/week7-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week7-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      32
+    ],
+    "sourceImage": "/assets/week7-q3-statement.png",
+    "answerEvidence": "/assets/week7-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q4",
+    "week": 7,
+    "questionNumber": 4,
+    "questionText": "Assertion: It is NOT necessary for behavior policy of an off-policy method to have non-zero probability of selecting all actions.\nReason: If probability of certain actions in estimation policy is zero, then probability of selecting corresponding actions in behavior policy can be zero, and it would not cause trouble in learning procedure.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Assertion and Reason are both true and Reason is a correct explanation of Assertion.",
+        "sourceImage": "/assets/week7-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Assertion and Reason are both true and Reason is not a correct explanation of Assertion.",
+        "sourceImage": "/assets/week7-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true but Reason is false.",
+        "sourceImage": "/assets/week7-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Assertion and Reason are both false.",
+        "sourceImage": "/assets/week7-q4-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      32
+    ],
+    "sourceImage": "/assets/week7-q4-statement.png",
+    "answerEvidence": "/assets/week7-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q5",
+    "week": 7,
+    "questionNumber": 5,
+    "questionText": "Considering episodic tasks and for $\\lambda\\in(0,1)$, one-step return always gets assigned the maximum weight in the $\\lambda$-return. True or false.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "False",
+        "sourceImage": "/assets/week7-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "True",
+        "sourceImage": "/assets/week7-q5-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      33
+    ],
+    "sourceImage": "/assets/week7-q5-statement.png",
+    "answerEvidence": "/assets/week7-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q6",
+    "week": 7,
+    "questionNumber": 6,
+    "questionText": "Assertion: It is possible to use the forward view of eligibility traces based target for updates before the end of an episode.\nReason: $G_t^\\lambda$ is the weighed average of terms of the form $G_t^i$, where each $G_t^i$ is computable after a finite number of steps $i$, making $G_t^\\lambda$ also computable after a finite number of steps in all cases.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week7-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week7-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true, Reason is false",
+        "sourceImage": "/assets/week7-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week7-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      33
+    ],
+    "sourceImage": "/assets/week7-q6-statement.png",
+    "answerEvidence": "/assets/week7-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q7",
+    "week": 7,
+    "questionNumber": 7,
+    "questionText": "Which of the following is a way to use replacing traces in SARSA($\\lambda$) such that we only update the estimate for the action, $a$, taken in the state, $s$, in a trajectory at timestep $t$?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$E_t(s,a)=\\begin{cases}(\\gamma\\lambda)E_{t-1}(s,a)+1&\\text{if }s_t=s,a_t=a\\\\(\\gamma\\lambda)E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$E_t(s,a)=\\begin{cases}1&\\text{if }s_t=s,a_t=a\\\\(\\gamma\\lambda)E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q7-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$E_t(s,a)=\\begin{cases}(\\gamma\\lambda)E_{t-1}(s,a)+1&\\text{if }s_t=s,a_t=a\\\\0&\\text{if }s_t=s,a_t\\neq a\\\\(\\gamma\\lambda)E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q7-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$E_t(s,a)=\\begin{cases}1&\\text{if }s_t=s,a_t=a\\\\0&\\text{if }s_t=s,a_t\\neq a\\\\(\\gamma\\lambda)E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q7-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      34
+    ],
+    "sourceImage": "/assets/week7-q7-statement.png",
+    "answerEvidence": "/assets/week7-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q8",
+    "week": 7,
+    "questionNumber": 8,
+    "questionText": "Assertion: When using an $\\epsilon$-greedy exploration strategy, and Watkins Q($\\lambda$), the $\\epsilon$ value must be kept low.\nReason: Traces will become too short if a high value of $\\epsilon$ is used, negating many of the advantages of using eligibility traces.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week7-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week7-q8-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true, Reason is false",
+        "sourceImage": "/assets/week7-q8-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week7-q8-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      34
+    ],
+    "sourceImage": "/assets/week7-q8-statement.png",
+    "answerEvidence": "/assets/week7-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q9",
+    "week": 7,
+    "questionNumber": 9,
+    "questionText": "Consider the current state is $s$ and the action recommended by the policy, $a_1$, is taken. The possible reason(s) behind setting $\\forall a\\neq a_1,E_t(s,a)=0$, is/are:\n(i) Rewards obtained by taking $a_1$ in $s$ should not be attributed to actions other than $a_1$ taken when in state $s$ previously.\n(ii) It assumed that the time steps between reaching $s$ are large enough to decay the eligibility trace to 0.\nWhich of the above is/are the correct reason(s)?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Only (i)",
+        "sourceImage": "/assets/week7-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Only (ii)",
+        "sourceImage": "/assets/week7-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Both (i) and (ii)",
+        "sourceImage": "/assets/week7-q9-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week7-q9-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      35
+    ],
+    "sourceImage": "/assets/week7-q9-statement.png",
+    "answerEvidence": "/assets/week7-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week7-q10",
+    "week": 7,
+    "questionNumber": 10,
+    "questionText": "In off-policy TD($\\lambda$), which of the following is a correct way to update eligibility trace, if $\\pi$ is the policy whose Q-values we want to estimate, $\\mu$ is the behaviour policy, and $\\rho_t=\\frac{\\pi(s_t,a_t)}{\\mu(s_t,a_t)}$?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$E_t(s)=\\begin{cases}\\rho_t\\gamma\\lambda E_{t-1}(s)+1&\\text{if }s_t=s\\\\\\rho_t\\gamma\\lambda E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$E_t(s)=\\begin{cases}\\rho_t(\\gamma\\lambda E_{t-1}(s)+1)&\\text{if }s_t=s\\\\\\rho_t\\gamma\\lambda E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q10-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$E_t(s)=\\begin{cases}\\gamma\\lambda E_{t-1}(s)+1&\\text{if }s_t=s\\\\\\rho_t\\gamma\\lambda E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q10-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$E_t(s)=\\begin{cases}\\rho_t(\\gamma\\lambda E_{t-1}(s)+1)&\\text{if }s_t=s\\\\\\gamma\\lambda E_{t-1}(s)&\\text{otherwise}\\end{cases}$",
+        "sourceImage": "/assets/week7-q10-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      35
+    ],
+    "sourceImage": "/assets/week7-q10-statement.png",
+    "answerEvidence": "/assets/week7-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q1",
+    "week": 8,
+    "questionNumber": 1,
+    "questionText": "You are given a training set of vectors $\\Phi$, so that each row of the matrix $\\Phi$ corresponds to $k$ attributes of a single training sample. Suppose that you are asked to find a linear function that minimizes the mean squared error for a given set of stationary targets $y$ using linear regression. State true/false for the following statement.\nStatement: If the column vectors of $\\Phi$ are linearly independent, then there exists a unique linear function that minimizes the mean-squared-error.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week8-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week8-q1-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      36
+    ],
+    "sourceImage": "/assets/week8-q1-statement.png",
+    "answerEvidence": "/assets/week8-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q2",
+    "week": 8,
+    "questionNumber": 2,
+    "questionText": "Which of the following statements are true ?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Function approximation allows us to deal with continuous state spaces.",
+        "sourceImage": "/assets/week8-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "A lookup table is a linear function approximator.",
+        "sourceImage": "/assets/week8-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "State aggregates do not overlap in coarse-coding.",
+        "sourceImage": "/assets/week8-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above.",
+        "sourceImage": "/assets/week8-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      36
+    ],
+    "sourceImage": "/assets/week8-q2-statement.png",
+    "answerEvidence": "/assets/week8-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q3",
+    "week": 8,
+    "questionNumber": 3,
+    "questionText": "In which of the following cases, the loss of a function appoximator as $\\sum_{s\\in S}(V^\\pi(s)-V(s))^2$ would lead to poor performance? Consider ‘relevant’ states to be those which are visited frequently when executing near optimal policies.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Large state space with small percentage of relevant states.",
+        "sourceImage": "/assets/week8-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Small state space with large percentage of relevant states.",
+        "sourceImage": "/assets/week8-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Large state space with large percentage of relevant states.",
+        "sourceImage": "/assets/week8-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above.",
+        "sourceImage": "/assets/week8-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      37
+    ],
+    "sourceImage": "/assets/week8-q3-statement.png",
+    "answerEvidence": "/assets/week8-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q4",
+    "week": 8,
+    "questionNumber": 4,
+    "questionText": "Assertion: It is not possible to use look-up table based methods to solve continuous state or action space problems. (Assume discretization of continuous space is not allowed)\nReason: For continuous state or action space, there are an infinite number of states/actions.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week8-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week8-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true, Reason is false",
+        "sourceImage": "/assets/week8-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week8-q4-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      37
+    ],
+    "sourceImage": "/assets/week8-q4-statement.png",
+    "answerEvidence": "/assets/week8-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q5",
+    "week": 8,
+    "questionNumber": 5,
+    "questionText": "Assertion: If we make incremental updates for a linear approximation of the value function $\\hat v$ under a policy $\\pi$, using gradient descent to minimize the mean-square-error between $\\hat v(s_t)$ and bootstrapped targets $R_t+\\gamma\\hat v(s_{t+1})$, then we will eventually converge to the same solution that we would have if we used the true $v_\\pi$ values as targets instead.\nReason: Each update moves $\\hat v$ closer to $v_\\pi$, so eventually the bootstrapped targets $R_t+\\gamma\\hat v(s_{t+1})$ will converge to the true $v_\\pi(s_t)$ values\n(Assume that we sample on-policy)",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week8-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week8-q5-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true and Reason is false.",
+        "sourceImage": "/assets/week8-q5-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false.",
+        "sourceImage": "/assets/week8-q5-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      38
+    ],
+    "sourceImage": "/assets/week8-q5-statement.png",
+    "answerEvidence": "/assets/week8-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q6",
+    "week": 8,
+    "questionNumber": 6,
+    "questionText": "Assertion: To solve the given optimization problem for some states with linear function approximator,\n$\\pi_{t+1}(s)=\\arg\\max_a\\hat Q^{\\pi_t}(s,a)$\nin case of discrete action space, we need to formulate a classification problem.\nReason: The given problem is equivalent to solving:\n$\\pi_{t+1}(s)=\\arg\\max_a\\Phi(s)^T\\hat\\Theta^{\\pi_t}(a)$\nFor discrete action space, as we can’t maximize it explicitly, we need to formulate a classification problem.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week8-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week8-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true, Reason is false",
+        "sourceImage": "/assets/week8-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week8-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      38
+    ],
+    "sourceImage": "/assets/week8-q6-statement.png",
+    "answerEvidence": "/assets/week8-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q7",
+    "week": 8,
+    "questionNumber": 7,
+    "questionText": "Which of the following is/are true about the LSTD and LSTDQ algorithm?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both are iterative algorithms, where the estimate of the parameters are updated using the gradient information of the loss function.",
+        "sourceImage": "/assets/week8-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both LSTD and LSTDQ can reuse samples.",
+        "sourceImage": "/assets/week8-q7-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Both LSTD and LSTDQ are linear function approximation methods.",
+        "sourceImage": "/assets/week8-q7-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week8-q7-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      39
+    ],
+    "sourceImage": "/assets/week8-q7-statement.png",
+    "answerEvidence": "/assets/week8-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q8",
+    "week": 8,
+    "questionNumber": 8,
+    "questionText": "Assertion: When minimizing mean-squared-error to approximate the value of states under a given policy $\\pi$, it is important that we draw samples on-policy.\nReason: Sampling on-policy makes the training data approximately reflect the steady state distribution of states under the policy $\\pi$.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week8-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week8-q8-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true and Reason is false",
+        "sourceImage": "/assets/week8-q8-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week8-q8-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      39
+    ],
+    "sourceImage": "/assets/week8-q8-statement.png",
+    "answerEvidence": "/assets/week8-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q9",
+    "week": 8,
+    "questionNumber": 9,
+    "questionText": "Tile coding is a method of state aggregation for gridworld problems. Consider the following statements.\n(i) The number of indicators for each state is equal to number of tilings.\n(ii) Tile coding cannot be used in continuous state spaces.\n(iii) Tile coding is also a form of Coarse coding. Say which of the above statements are true",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "(iii) only",
+        "sourceImage": "/assets/week8-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "(i), (iii)",
+        "sourceImage": "/assets/week8-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "(i) only",
+        "sourceImage": "/assets/week8-q9-C.png"
+      },
+      {
+        "id": "D",
+        "text": "(i), (ii), (iii)",
+        "sourceImage": "/assets/week8-q9-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      40
+    ],
+    "sourceImage": "/assets/week8-q9-statement.png",
+    "answerEvidence": "/assets/week8-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week8-q10",
+    "week": 8,
+    "questionNumber": 10,
+    "questionText": "Which of the following are the correct values for A in LSTDQ method. Note the samples are $D=\\{s_i,a_i,s_i^\\prime,r_i\\}$, $\\phi(s_i,a_i)$ is the representation used for $(s_i,a_i)$ pair and $\\pi$ is the policy being followed",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac1L\\sum_{i=1}^L[\\phi(s_i,a_i)(\\phi(s_i,a_i)-\\gamma\\phi(s_i^\\prime,a_i))^T]$",
+        "sourceImage": "/assets/week8-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac1L\\sum_{i=1}^L[\\phi(s_i)(\\phi(s_i)-\\gamma\\phi(s_i^\\prime))^T]$",
+        "sourceImage": "/assets/week8-q10-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac1L\\sum_{i=1}^L[\\phi(s_i,a_i)(\\phi(s_i,a_i)-\\gamma\\phi(s_i^\\prime))^T]$",
+        "sourceImage": "/assets/week8-q10-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$\\frac1L\\sum_{i=1}^L[\\phi(s_i,a_i)(\\phi(s_i,a_i)-\\gamma\\phi(s_i^\\prime,\\pi(s_i^\\prime)))^T]$",
+        "sourceImage": "/assets/week8-q10-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      40
+    ],
+    "sourceImage": "/assets/week8-q10-statement.png",
+    "answerEvidence": "/assets/week8-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q1",
+    "week": 9,
+    "questionNumber": 1,
+    "questionText": "State True or False for the following statements:\nStatement 1: DQN is an on-policy technique.\nStatement 2: Actor-Critic is a policy gradient method.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both the statements are True.",
+        "sourceImage": "/assets/week9-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Statement 1 is True and Statement 2 is False.",
+        "sourceImage": "/assets/week9-q1-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Statement 1 is False and Statement 2 is True.",
+        "sourceImage": "/assets/week9-q1-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both the statements are False.",
+        "sourceImage": "/assets/week9-q1-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      41
+    ],
+    "sourceImage": "/assets/week9-q1-statement.png",
+    "answerEvidence": "/assets/week9-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q2",
+    "week": 9,
+    "questionNumber": 2,
+    "questionText": "What are the reasons behind using an experience replay buffer in DQN?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Random sampling from experience replay buffer breaks correlations among transitions.",
+        "sourceImage": "/assets/week9-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "It leads to efficient usage of real-world samples.",
+        "sourceImage": "/assets/week9-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "It guarantees convergence to the optimal policy.",
+        "sourceImage": "/assets/week9-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week9-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      41
+    ],
+    "sourceImage": "/assets/week9-q2-statement.png",
+    "answerEvidence": "/assets/week9-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q3",
+    "week": 9,
+    "questionNumber": 3,
+    "questionText": "Statement: DQN is implemented with current and target network.\nReason: Using target network helps in avoiding chasing a non-stationary target.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week9-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week9-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true, Reason is false",
+        "sourceImage": "/assets/week9-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week9-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      42
+    ],
+    "sourceImage": "/assets/week9-q3-statement.png",
+    "answerEvidence": "/assets/week9-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q4",
+    "week": 9,
+    "questionNumber": 4,
+    "questionText": "Policy gradient methods can be used for continuous action spaces.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week9-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week9-q4-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      42
+    ],
+    "sourceImage": "/assets/week9-q4-statement.png",
+    "answerEvidence": "/assets/week9-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q5",
+    "week": 9,
+    "questionNumber": 5,
+    "questionText": "Assertion: Actor-critic updates have lesser variance than REINFORCE updates.\nReason: Actor-critic methods use TD target instead of $G_t$.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week9-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week9-q5-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true, Reason is false",
+        "sourceImage": "/assets/week9-q5-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week9-q5-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      43
+    ],
+    "sourceImage": "/assets/week9-q5-statement.png",
+    "answerEvidence": "/assets/week9-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q6",
+    "week": 9,
+    "questionNumber": 6,
+    "questionText": "Choose the correct statement for Policy Gradient Theorem for average reward formulation:",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$\\frac{\\partial\\rho(\\pi)}{\\partial\\theta}=\\sum_s d^\\pi(s)\\sum_a\\frac{\\partial\\pi(s,a)}{\\partial\\theta}$",
+        "sourceImage": "/assets/week9-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$\\frac{\\partial\\rho(\\pi)}{\\partial\\theta}=\\sum_s v^\\pi(s)\\sum_a\\frac{\\partial\\pi(s,a)}{\\partial\\theta}q^\\pi(s,a)$",
+        "sourceImage": "/assets/week9-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$\\frac{\\partial\\rho(\\pi)}{\\partial\\theta}=\\sum_s d^\\pi(s)\\sum_a\\frac{\\partial\\pi(s,a)}{\\partial\\theta}q^\\pi(s,a)$",
+        "sourceImage": "/assets/week9-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week9-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      43
+    ],
+    "sourceImage": "/assets/week9-q6-statement.png",
+    "answerEvidence": "/assets/week9-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q7",
+    "week": 9,
+    "questionNumber": 7,
+    "questionText": "Suppose we are using a policy gradient method to solve a reinforcement learning problem. Assuming that the policy returned by the method is not optimal, which among the following are plausible reasons for such an outcome?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "The search procedure converged to a locally optimal policy.",
+        "sourceImage": "/assets/week9-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "The search procedure was terminated before it could reach an optimal policy.",
+        "sourceImage": "/assets/week9-q7-B.png"
+      },
+      {
+        "id": "C",
+        "text": "An optimal policy could not be represented by the parameterisation used to represent the policy.",
+        "sourceImage": "/assets/week9-q7-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of these",
+        "sourceImage": "/assets/week9-q7-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      44
+    ],
+    "sourceImage": "/assets/week9-q7-statement.png",
+    "answerEvidence": "/assets/week9-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q8",
+    "week": 9,
+    "questionNumber": 8,
+    "questionText": "State True or False: Monte Carlo policy gradient methods typically converge faster than the actor-critic methods, given that we use similar parameterisations and that the approximation to the Q* used in the actor-critic method satisfies the compatibility criteria.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week9-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week9-q8-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      45
+    ],
+    "sourceImage": "/assets/week9-q8-statement.png",
+    "answerEvidence": "/assets/week9-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q9",
+    "week": 9,
+    "questionNumber": 9,
+    "questionText": "When using policy gradient methods, if we make use of the average reward formulation rather than the discounted reward formulation, then is it necessary to assign a designated start state, $s_0$?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes",
+        "sourceImage": "/assets/week9-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "No",
+        "sourceImage": "/assets/week9-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Can’t say",
+        "sourceImage": "/assets/week9-q9-C.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      45
+    ],
+    "sourceImage": "/assets/week9-q9-statement.png",
+    "answerEvidence": "/assets/week9-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week9-q10",
+    "week": 9,
+    "questionNumber": 10,
+    "questionText": "State True or False: Exploration techniques like softmax (or other equivalent techniques) are not needed for DQN as the randomisation provided by experience replay provides sufficient exploration.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week9-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week9-q10-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      45
+    ],
+    "sourceImage": "/assets/week9-q10-statement.png",
+    "answerEvidence": "/assets/week9-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q1",
+    "week": 10,
+    "questionNumber": 1,
+    "questionText": "Consider the update equation for SMDP Q-learning:\n$Q(s,a)=Q(s,a)+\\alpha[A+B\\max_{a^\\prime}Q(s^\\prime,a^\\prime)-Q(s,a)]$\nWhich of the following are the correct values of A and B? ($r_k$ is the reward received at time step $k$, and $\\gamma$ is the discount factor)",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$A=r_t;\\ B=\\gamma$",
+        "sourceImage": "/assets/week10-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$A=r_t+\\gamma r_{t+1}+\\ldots+\\gamma^{\\tau-1}r_{t+\\tau};\\ B=\\gamma^\\tau$",
+        "sourceImage": "/assets/week10-q1-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$A=\\gamma^t r_t+\\gamma^{t+1}r_{t+1}+\\ldots+\\gamma^{t+\\tau-1}r_{t+\\tau};\\ B=\\gamma^{t+\\tau}$",
+        "sourceImage": "/assets/week10-q1-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$A=\\gamma^{t-1}r_{t+\\tau};\\ B=\\gamma^t$",
+        "sourceImage": "/assets/week10-q1-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      46
+    ],
+    "sourceImage": "/assets/week10-q1-statement.png",
+    "answerEvidence": "/assets/week10-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q2",
+    "week": 10,
+    "questionNumber": 2,
+    "questionText": "Consider a SMDP in which the next state and the reward only depend on the previous state and action i.e. $P(s^\\prime,\\tau\\mid s,a)=P(s^\\prime\\mid s,a)P(\\tau\\mid s,a)$, $R(s,a,\\tau,s^\\prime)=R(s,a,s^\\prime)$. If we solve the above SMDP with conventional Q-learning we will end up with the same policy as solving it with SMDP Q-learning.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "yes, because now $\\tau$ won’t change anything and we end up with same states and action sequences",
+        "sourceImage": "/assets/week10-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "no, because $\\tau$ still depends on the state, action pair and discounting may have an effect on the final policies.",
+        "sourceImage": "/assets/week10-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "no, because the next state will still depend on the $\\tau$.",
+        "sourceImage": "/assets/week10-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "yes, because the bellman equation is same for both methods in this case.",
+        "sourceImage": "/assets/week10-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      46
+    ],
+    "sourceImage": "/assets/week10-q2-statement.png",
+    "answerEvidence": "/assets/week10-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q3",
+    "week": 10,
+    "questionNumber": 3,
+    "questionText": "In HAM, what will be the immediate rewards received between two choice states.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Accumulation of immediate rewards of the core MDP obtained between these choice points.",
+        "sourceImage": "/assets/week10-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "The return of the next choice state.",
+        "sourceImage": "/assets/week10-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "The reward of only the next primitive action taken-",
+        "sourceImage": "/assets/week10-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Immediate reward is always zero",
+        "sourceImage": "/assets/week10-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      47
+    ],
+    "sourceImage": "/assets/week10-q3-statement.png",
+    "answerEvidence": "/assets/week10-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q4",
+    "week": 10,
+    "questionNumber": 4,
+    "questionText": "Which of the following is true about Markov and Semi Markov Options?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "In a Markov Option the option’s policy depends only on the current state.",
+        "sourceImage": "/assets/week10-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "in a Semi Markov Option the option’s policy can depend only on the current state.",
+        "sourceImage": "/assets/week10-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "In a Semi Markov Option, the option’s policy may depend on the history since the execution of the option began.",
+        "sourceImage": "/assets/week10-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "A Semi-Markov Option ts always a Markov Option but not vice versa.",
+        "sourceImage": "/assets/week10-q4-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      47
+    ],
+    "sourceImage": "/assets/week10-q4-statement.png",
+    "answerEvidence": "/assets/week10-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q5",
+    "week": 10,
+    "questionNumber": 5,
+    "questionText": "Consider the two statements below for an SMDP for a HAM:\nStatement1: The state of the SMDP is defined by the state of the base MDP the call stack and the state of the machine currently executing.\nStatement2: The actions of the SMDP can only be defined by the action states.\nWhich of the following are true?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Statement1 is True and Statement2 is True.",
+        "sourceImage": "/assets/week10-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Statement1 is True and Statement2 is False.",
+        "sourceImage": "/assets/week10-q5-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Statement1 is False and Statement2 is True.",
+        "sourceImage": "/assets/week10-q5-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Statement1 is False and Statement2 is False.",
+        "sourceImage": "/assets/week10-q5-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      48
+    ],
+    "sourceImage": "/assets/week10-q5-statement.png",
+    "answerEvidence": "/assets/week10-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q6",
+    "week": 10,
+    "questionNumber": 6,
+    "questionText": "Which of the following are possible advantages of formulating a given problem as a hierarchy of sub-problems?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "A reduced state space.",
+        "sourceImage": "/assets/week10-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "More meaningful state-abstraction-",
+        "sourceImage": "/assets/week10-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Temporal abstraction of behaviour.",
+        "sourceImage": "/assets/week10-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Re-usability of learnt sub-problems.",
+        "sourceImage": "/assets/week10-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      48
+    ],
+    "sourceImage": "/assets/week10-q6-statement.png",
+    "answerEvidence": "/assets/week10-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q7",
+    "week": 10,
+    "questionNumber": 7,
+    "questionText": "In SMDP, consider the case when $\\tau$ is fixed for all state, action pairs. Will we always get the same policy for conventional Q-learning and SMDP Q learning then? Provide answer for the three cases when $\\tau=3,\\tau=2,\\tau=1$.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "yes, yes, no",
+        "sourceImage": "/assets/week10-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "no, no, no",
+        "sourceImage": "/assets/week10-q7-B.png"
+      },
+      {
+        "id": "C",
+        "text": "yes, yes, yes",
+        "sourceImage": "/assets/week10-q7-C.png"
+      },
+      {
+        "id": "D",
+        "text": "no, no, yes",
+        "sourceImage": "/assets/week10-q7-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      49
+    ],
+    "sourceImage": "/assets/week10-q7-statement.png",
+    "answerEvidence": "/assets/week10-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q8",
+    "week": 10,
+    "questionNumber": 8,
+    "questionText": "State True or False: In the classical options framework, each option has a non-zero probability of terminating in any state of the environment.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week10-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week10-q8-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      49
+    ],
+    "sourceImage": "/assets/week10-q8-statement.png",
+    "answerEvidence": "/assets/week10-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q9",
+    "week": 10,
+    "questionNumber": 9,
+    "questionText": "Suppose that we model a robot in a room as an SMDP, such that the position of the robot in the room is the state of the SMDP. Which of the following scenarios satisfy the assumption that the next state and transition time are independent of each other given the current state and action i.e. $P(s^\\prime,\\tau\\mid s,a)=P(s^\\prime\\mid s,a)P(\\tau\\mid s,a)$? (Assume that primitive actions – <left, right, up, down> take a single time step to execute.)",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "The room has a single door. The actions available are : {exit the room, move left, move right, move up, move down}.",
+        "sourceImage": "/assets/week10-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "The room has a two doors. The actions available are : {exit the room, move left, move right, move up, move down}.",
+        "sourceImage": "/assets/week10-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "The room has a two doors. The actions available are: {move left, move right, move up, move down}.",
+        "sourceImage": "/assets/week10-q9-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above.",
+        "sourceImage": "/assets/week10-q9-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      50
+    ],
+    "sourceImage": "/assets/week10-q9-statement.png",
+    "answerEvidence": "/assets/week10-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week10-q10",
+    "week": 10,
+    "questionNumber": 10,
+    "questionText": "Which of the following is a correct Bellman equation for an SMDP?\nNote: $R(s,a,s^\\prime)\\Rightarrow$ reward is a function of only $s,a$ and $s^\\prime$.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$V^*(s)=\\max_{a\\in A(s)}[R(s,a,\\tau,s^\\prime)+\\gamma^\\tau P(s^\\prime\\mid s,a)V^*(s^\\prime)]$",
+        "sourceImage": "/assets/week10-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$V^*(s)=\\max_{a\\in A(s)}[\\sum_{s^\\prime,\\tau}P(s^\\prime\\mid s,a,\\tau)(R(s,a,\\tau,s^\\prime)+\\gamma V^*(s^\\prime))]$",
+        "sourceImage": "/assets/week10-q10-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$V^*(s)=\\max_{a\\in A(s)}[\\sum_{s^\\prime,\\tau}P(s^\\prime,\\tau\\mid s,a)(R(s,a,\\tau,s^\\prime)+\\gamma^\\tau V^*(s^\\prime))]$",
+        "sourceImage": "/assets/week10-q10-C.png"
+      },
+      {
+        "id": "D",
+        "text": "$V^*(s)=\\max_{a\\in A(s)}[\\sum_{s^\\prime,\\tau}P(s^\\prime,\\tau\\mid s,a)(R(s,a,s^\\prime)+\\gamma V^*(s^\\prime))]$",
+        "sourceImage": "/assets/week10-q10-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      50
+    ],
+    "sourceImage": "/assets/week10-q10-statement.png",
+    "answerEvidence": "/assets/week10-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week11-q1",
+    "week": 11,
+    "questionNumber": 1,
+    "questionText": "Which of the following option is correct for the sub-task terminations in the MAXQ Frame-work?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "The termination is stochastic",
+        "sourceImage": "/assets/week11-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "The termination is deterministic",
+        "sourceImage": "/assets/week11-q1-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      51
+    ],
+    "sourceImage": "/assets/week11-q1-statement.png",
+    "answerEvidence": "/assets/week11-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week11-q2",
+    "week": 11,
+    "questionNumber": 2,
+    "questionText": "In MAXQ learning, we have a collection of SMDPs. In conventional value function, the only argument was state. In MAXQ value function decomposition, we have value function of the form $V^\\pi(i,s)$, where $\\pi$ is the policy, $s$ is the current state. What is ‘$i$’ supposed to be in the above notation?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "The number of times we have visited state $s$",
+        "sourceImage": "/assets/week11-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "It means it is $i^{th}$ iteration of updates",
+        "sourceImage": "/assets/week11-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$i$ is the identity of the sub-task/SMDP.",
+        "sourceImage": "/assets/week11-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above.",
+        "sourceImage": "/assets/week11-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      51
+    ],
+    "sourceImage": "/assets/week11-q2-statement.png",
+    "answerEvidence": "/assets/week11-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week11-q3",
+    "week": 11,
+    "questionNumber": 3,
+    "questionText": "From the below list of actions:\ni. Left\nii. Drop off\niii. Navigate\niv. put-down\nWhich among them are the primitive actions?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "i, ii, iii, iv",
+        "sourceImage": "/assets/week11-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "ii, iii",
+        "sourceImage": "/assets/week11-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "i, iv",
+        "sourceImage": "/assets/week11-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week11-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      53
+    ],
+    "sourceImage": "/assets/week11-q3-statement.png",
+    "answerEvidence": "/assets/week11-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [
+      {
+        "src": "/assets/week11-shared-taxi-grid.png",
+        "alt": "Original taxi-world grid with R, Y, G, B locations and gray obstacles.",
+        "sourcePage": 52
+      },
+      {
+        "src": "/assets/week11-shared-call-graph.png",
+        "alt": "Original call graph: Root, Pick up, Drop off, Navigate(t), pick-up, put-down, Up, Down, Left, Right.",
+        "sourcePage": 52
+      }
+    ],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "sharedContext": "Comprehensive model for questions 3 to 6: Consider the following taxi-world problem. The grey colored cells are inaccessible cells or can be thought of as obstacles. The corner cells marked as R, G, B, Y are allowed pickup-drop points for passengers. The call graph describes the taxi-world hierarchy.",
+    "topics": []
+  },
+  {
+    "id": "week11-q4",
+    "week": 11,
+    "questionNumber": 4,
+    "questionText": "From the discussion in the class, it is said that Navigate is not a single sub-task. What is the parameter’ t' in’ Navigate(t)' from the class discussions?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "the number of times ‘Pick up’ or \"Drop off’ have called sub-task Navigate",
+        "sourceImage": "/assets/week11-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "the maximum number of primitive actions permitted to finish sub-task",
+        "sourceImage": "/assets/week11-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "the destination (in this case, one of R, G, B, Y)",
+        "sourceImage": "/assets/week11-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week11-q4-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      53
+    ],
+    "sourceImage": "/assets/week11-q4-statement.png",
+    "answerEvidence": "/assets/week11-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [
+      {
+        "src": "/assets/week11-shared-taxi-grid.png",
+        "alt": "Original taxi-world grid with R, Y, G, B locations and gray obstacles.",
+        "sourcePage": 52
+      },
+      {
+        "src": "/assets/week11-shared-call-graph.png",
+        "alt": "Original call graph: Root, Pick up, Drop off, Navigate(t), pick-up, put-down, Up, Down, Left, Right.",
+        "sourcePage": 52
+      }
+    ],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "sharedContext": "Comprehensive model for questions 3 to 6: Consider the following taxi-world problem. The grey colored cells are inaccessible cells or can be thought of as obstacles. The corner cells marked as R, G, B, Y are allowed pickup-drop points for passengers. The call graph describes the taxi-world hierarchy.",
+    "topics": []
+  },
+  {
+    "id": "week11-q5",
+    "week": 11,
+    "questionNumber": 5,
+    "questionText": "State True/False. The ordering of the above call-graph is important and sub-tasks should be performed via these orderings.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week11-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week11-q5-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      54
+    ],
+    "sourceImage": "/assets/week11-q5-statement.png",
+    "answerEvidence": "/assets/week11-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [
+      {
+        "src": "/assets/week11-shared-taxi-grid.png",
+        "alt": "Original taxi-world grid with R, Y, G, B locations and gray obstacles.",
+        "sourcePage": 52
+      },
+      {
+        "src": "/assets/week11-shared-call-graph.png",
+        "alt": "Original call graph: Root, Pick up, Drop off, Navigate(t), pick-up, put-down, Up, Down, Left, Right.",
+        "sourcePage": 52
+      }
+    ],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "sharedContext": "Comprehensive model for questions 3 to 6: Consider the following taxi-world problem. The grey colored cells are inaccessible cells or can be thought of as obstacles. The corner cells marked as R, G, B, Y are allowed pickup-drop points for passengers. The call graph describes the taxi-world hierarchy.",
+    "topics": []
+  },
+  {
+    "id": "week11-q6",
+    "week": 11,
+    "questionNumber": 6,
+    "questionText": "Suppose the passenger is always either inside the taxi or at one of the four pickup/dropoff locations. That means there are 5 states for passenger's location. Then for the given taxi-world, what is the number of states that suffices to define all information?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$18$",
+        "sourceImage": "/assets/week11-q6-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$18\\times5$",
+        "sourceImage": "/assets/week11-q6-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$18\\times5\\times4$",
+        "sourceImage": "/assets/week11-q6-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week11-q6-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      54
+    ],
+    "sourceImage": "/assets/week11-q6-statement.png",
+    "answerEvidence": "/assets/week11-q6-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [
+      {
+        "src": "/assets/week11-shared-taxi-grid.png",
+        "alt": "Original taxi-world grid with R, Y, G, B locations and gray obstacles.",
+        "sourcePage": 52
+      },
+      {
+        "src": "/assets/week11-shared-call-graph.png",
+        "alt": "Original call graph: Root, Pick up, Drop off, Navigate(t), pick-up, put-down, Up, Down, Left, Right.",
+        "sourcePage": 52
+      }
+    ],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "sharedContext": "Comprehensive model for questions 3 to 6: Consider the following taxi-world problem. The grey colored cells are inaccessible cells or can be thought of as obstacles. The corner cells marked as R, G, B, Y are allowed pickup-drop points for passengers. The call graph describes the taxi-world hierarchy.",
+    "topics": []
+  },
+  {
+    "id": "week11-q7",
+    "week": 11,
+    "questionNumber": 7,
+    "questionText": "State True/False. Bottlenecks are useful surrogative measures for option discovery.",
+    "type": "true-false",
+    "options": [
+      {
+        "id": "A",
+        "text": "True",
+        "sourceImage": "/assets/week11-q7-A.png"
+      },
+      {
+        "id": "B",
+        "text": "False",
+        "sourceImage": "/assets/week11-q7-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      54
+    ],
+    "sourceImage": "/assets/week11-q7-statement.png",
+    "answerEvidence": "/assets/week11-q7-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week11-q8",
+    "week": 11,
+    "questionNumber": 8,
+    "questionText": "Which of the following can be considered as a good option in Hierarchical RL?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "An option that can be reused often",
+        "sourceImage": "/assets/week11-q8-A.png"
+      },
+      {
+        "id": "B",
+        "text": "An option that can cut down exploration",
+        "sourceImage": "/assets/week11-q8-B.png"
+      },
+      {
+        "id": "C",
+        "text": "An option that helps in transfer learning",
+        "sourceImage": "/assets/week11-q8-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week11-q8-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      55
+    ],
+    "sourceImage": "/assets/week11-q8-statement.png",
+    "answerEvidence": "/assets/week11-q8-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week11-q9",
+    "week": 11,
+    "questionNumber": 9,
+    "questionText": "We define the action value for MAXQ as $q^\\pi(i,s,a)=v^\\pi(a,s)+C^\\pi(i,s,a)$ where $q^\\pi(i,s,a)$ can be interpreted as expected return when you are in sub-task $i$, and state $s$, and you decide to perform sub-task $a$. Assume that in taking $a$, you get reward $r_1$, and after completion of $a$, you get reward $r_2$ in completing sub-task $i$. Choose the correct value of $C^\\pi(i,s,a)$ from following.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "$C^\\pi(i,s,a)=r_2$",
+        "sourceImage": "/assets/week11-q9-A.png"
+      },
+      {
+        "id": "B",
+        "text": "$C^\\pi(i,s,a)=r_1+r_2$",
+        "sourceImage": "/assets/week11-q9-B.png"
+      },
+      {
+        "id": "C",
+        "text": "$C^\\pi(i,s,a)=r_1$",
+        "sourceImage": "/assets/week11-q9-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week11-q9-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      56
+    ],
+    "sourceImage": "/assets/week11-q9-statement.png",
+    "answerEvidence": "/assets/week11-q9-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week11-q10",
+    "week": 11,
+    "questionNumber": 10,
+    "questionText": "In the MAXQ approach to solving a problem, suppose that sub-task $M_i$ invokes sub-task $M_j$. Do the pseudo rewards of $M_j$ have any effect on sub-task $M_i$?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Yes",
+        "sourceImage": "/assets/week11-q10-A.png"
+      },
+      {
+        "id": "B",
+        "text": "No",
+        "sourceImage": "/assets/week11-q10-B.png"
+      }
+    ],
+    "correctAnswers": [
+      "A"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      56
+    ],
+    "sourceImage": "/assets/week11-q10-statement.png",
+    "answerEvidence": "/assets/week11-q10-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "A"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week12-q1",
+    "week": 12,
+    "questionNumber": 1,
+    "questionText": "Consider an environment in which an agent is randomly dropped into either state $s_1$ or $s_2$ with equal probability. The agent can only view obstacles present immediately to the North, South, East or West. However the observation made in each direction by the agent may be wrong with a probability of 0.1. If in state $s_1$ obstacles are present to the North and South, and in $s_2$ obstacles are present to the East and West, what is the probability of the agent being in state $s_1$ if the observation made is that there are obstacles present to the North and West.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "81/82",
+        "sourceImage": "/assets/week12-q1-A.png"
+      },
+      {
+        "id": "B",
+        "text": "41/82",
+        "sourceImage": "/assets/week12-q1-B.png"
+      },
+      {
+        "id": "C",
+        "text": "73/82",
+        "sourceImage": "/assets/week12-q1-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week12-q1-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      57
+    ],
+    "sourceImage": "/assets/week12-q1-statement.png",
+    "answerEvidence": "/assets/week12-q1-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week12-q2",
+    "week": 12,
+    "questionNumber": 2,
+    "questionText": "In the same environment as Question 1, suppose state $s_1$ has obstacles present only to the North and South, and $s_2$ has obstacles present only to the East and West. What is the probability of the agent being in state $s_1$ if the observation made is that there are obstacles present only to the North, East and West.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "81/82",
+        "sourceImage": "/assets/week12-q2-A.png"
+      },
+      {
+        "id": "B",
+        "text": "41/82",
+        "sourceImage": "/assets/week12-q2-B.png"
+      },
+      {
+        "id": "C",
+        "text": "73/82",
+        "sourceImage": "/assets/week12-q2-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week12-q2-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      57
+    ],
+    "sourceImage": "/assets/week12-q2-statement.png",
+    "answerEvidence": "/assets/week12-q2-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "sharedContext": "Consider an environment in which an agent is randomly dropped into either state $s_1$ or $s_2$ with equal probability. The agent can only view obstacles present immediately to the North, South, East or West. However the observation made in each direction by the agent may be wrong with a probability of 0.1. ",
+    "topics": []
+  },
+  {
+    "id": "week12-q3",
+    "week": 12,
+    "questionNumber": 3,
+    "questionText": "Assertion: One of the reasons that history-based methods are not feasible is because of the significant increase in the state space size when the trajectory is long.\nReason: The number of states increases polynomially w.r.t. trajectory length.",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Both Assertion and Reason are true, and Reason is correct explanation for Assertion.",
+        "sourceImage": "/assets/week12-q3-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Both Assertion and Reason are true, but Reason is not correct explanation for assertion.",
+        "sourceImage": "/assets/week12-q3-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Assertion is true, Reason is false",
+        "sourceImage": "/assets/week12-q3-C.png"
+      },
+      {
+        "id": "D",
+        "text": "Both Assertion and Reason are false",
+        "sourceImage": "/assets/week12-q3-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "C"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      58
+    ],
+    "sourceImage": "/assets/week12-q3-statement.png",
+    "answerEvidence": "/assets/week12-q3-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "C"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week12-q4",
+    "week": 12,
+    "questionNumber": 4,
+    "questionText": "In the case of POMDPs, which of the following is a good estimate of the return of a trajectory of a policy $\\pi$, given the current belief state and the solution to the underlying MDP (value function for all states)?",
+    "type": "single-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "Average of all $V^\\pi(s)$ where $b(s)>0$.",
+        "sourceImage": "/assets/week12-q4-A.png"
+      },
+      {
+        "id": "B",
+        "text": "Weighted average of all $V^\\pi(s)$ where $b(s)$ are the weights.",
+        "sourceImage": "/assets/week12-q4-B.png"
+      },
+      {
+        "id": "C",
+        "text": "Average of all $V^\\pi(s)$ where $b(s)\\geq\\alpha$, where $\\alpha$ is a small positive value",
+        "sourceImage": "/assets/week12-q4-C.png"
+      },
+      {
+        "id": "D",
+        "text": "None of the above",
+        "sourceImage": "/assets/week12-q4-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "B"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      58
+    ],
+    "sourceImage": "/assets/week12-q4-statement.png",
+    "answerEvidence": "/assets/week12-q4-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [],
+    "officialCorrectAnswers": [
+      "B"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  },
+  {
+    "id": "week12-q5",
+    "week": 12,
+    "questionNumber": 5,
+    "questionText": "Consider the grid-world shown below:\nWalls and obstacles are colored gray. The agent is equipped with a sensor that can detect the presence of walls or obstacles immediately to its North, South, East or West.\nWhich of the following are true if we represent states by their sensor observations?",
+    "type": "multi-select",
+    "options": [
+      {
+        "id": "A",
+        "text": "The grid-world is a 1st-order Markov system.",
+        "sourceImage": "/assets/week12-q5-A.png"
+      },
+      {
+        "id": "B",
+        "text": "The grid-world is a 2nd-order Markov system.",
+        "sourceImage": "/assets/week12-q5-B.png"
+      },
+      {
+        "id": "C",
+        "text": "The grid-world is a 3rd-order Markov system.",
+        "sourceImage": "/assets/week12-q5-C.png"
+      },
+      {
+        "id": "D",
+        "text": "The grid-world is a 4th-order Markov system.",
+        "sourceImage": "/assets/week12-q5-D.png"
+      }
+    ],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "explanation": null,
+    "sourcePages": [
+      59
+    ],
+    "sourceImage": "/assets/week12-q5-statement.png",
+    "answerEvidence": "/assets/week12-q5-key.png",
+    "verification": "source-verified",
+    "issues": [],
+    "diagrams": [
+      {
+        "src": "/assets/week12-q5-grid.png",
+        "alt": "Original three by three grid with gray diagonal obstacles, outer walls, and North, South, East, West compass.",
+        "sourcePage": 59
+      }
+    ],
+    "officialCorrectAnswers": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answerOrigin": "PDF accepted-answer label",
+    "transcriptionStatus": "visually-reviewed",
+    "topics": []
+  }
+]
